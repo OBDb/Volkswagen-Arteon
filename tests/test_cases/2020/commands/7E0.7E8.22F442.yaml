@@ -1,0 +1,283 @@
+command_id: 7E0.7E8.22F442
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F4422DB3
+  expected_values:
+    VOLKSWAGEN_VPWR: 11.699
+- response: 7E80562F4422E63
+  expected_values:
+    VOLKSWAGEN_VPWR: 11.875
+- response: 7E80562F4422E9D
+  expected_values:
+    VOLKSWAGEN_VPWR: 11.933
+- response: 7E80562F4422F12
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.05
+- response: 7E80562F4422F26
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.07
+- response: 7E80562F4422F4D
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.109
+- response: 7E80562F4422FC2
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.226
+- response: 7E80562F4422FD6
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.246
+- response: 7E80562F4423010
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.304
+- response: 7E80562F4423024
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.324
+- response: 7E80562F442304B
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.363
+- response: 7E80562F4423072
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.402
+- response: 7E80562F4423099
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.441
+- response: 7E80562F44230C0
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.48
+- response: 7E80562F442315C
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.636
+- response: 7E80562F4423183
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.675
+- response: 7E80562F4423197
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.695
+- response: 7E80562F44231AA
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.714
+- response: 7E80562F44231BE
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.734
+- response: 7E80562F44231D1
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.753
+- response: 7E80562F44231E5
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.773
+- response: 7E80562F44231F8
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.792
+- response: 7E80562F442320C
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.812
+- response: 7E80562F4423220
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.832
+- response: 7E80562F4423233
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.851
+- response: 7E80562F4423247
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.871
+- response: 7E80562F442326E
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.91
+- response: 7E80562F4423281
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.929
+- response: 7E80562F44232A8
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.968
+- response: 7E80562F44232BC
+  expected_values:
+    VOLKSWAGEN_VPWR: 12.988
+- response: 7E80562F44232CF
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.007
+- response: 7E80562F44232E3
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.027
+- response: 7E80562F44232F6
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.046
+- response: 7E80562F442330A
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.066
+- response: 7E80562F442331D
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.085
+- response: 7E80562F4423331
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.105
+- response: 7E80562F4423345
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.125
+- response: 7E80562F4423358
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.144
+- response: 7E80562F442336C
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.164
+- response: 7E80562F44233A6
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.222
+- response: 7E80562F44233BA
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.242
+- response: 7E80562F44233CD
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.261
+- response: 7E80562F44233E1
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.281
+- response: 7E80562F44233F4
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.3
+- response: 7E80562F4423408
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.32
+- response: 7E80562F442341B
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.339
+- response: 7E80562F442342F
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.359
+- response: 7E80562F44234CB
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.515
+- response: 7E80562F44234F2
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.554
+- response: 7E80562F4423519
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.593
+- response: 7E80562F442352D
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.613
+- response: 7E80562F4423540
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.632
+- response: 7E80562F4423554
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.652
+- response: 7E80562F4423567
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.671
+- response: 7E80562F442357B
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.691
+- response: 7E80562F442358E
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.71
+- response: 7E80562F44235A2
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.73
+- response: 7E80562F44235B6
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.75
+- response: 7E80562F44235C9
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.769
+- response: 7E80562F44235DD
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.789
+- response: 7E80562F44235F0
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.808
+- response: 7E80562F4423604
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.828
+- response: 7E80562F4423617
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.847
+- response: 7E80562F442362B
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.867
+- response: 7E80562F442363E
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.886
+- response: 7E80562F4423652
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.906
+- response: 7E80562F4423665
+  expected_values:
+    VOLKSWAGEN_VPWR: 13.925
+- response: 7E80562F44236C7
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.023
+- response: 7E80562F44236DA
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.042
+- response: 7E80562F44236EE
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.062
+- response: 7E80562F4423702
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.082
+- response: 7E80562F4423715
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.101
+- response: 7E80562F4423729
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.121
+- response: 7E80562F442373C
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.14
+- response: 7E80562F4423750
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.16
+- response: 7E80562F4423763
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.179
+- response: 7E80562F4423777
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.199
+- response: 7E80562F442378A
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.218
+- response: 7E80562F442379E
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.238
+- response: 7E80562F44237B1
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.257
+- response: 7E80562F44237C5
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.277
+- response: 7E80562F44237D8
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.296
+- response: 7E80562F44237EC
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.316
+- response: 7E80562F44238AF
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.511
+- response: 7E80562F4423924
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.628
+- response: 7E80562F4423938
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.648
+- response: 7E80562F442394B
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.667
+- response: 7E80562F4423986
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.726
+- response: 7E80562F442399A
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.746
+- response: 7E80562F44239AD
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.765
+- response: 7E80562F44239C1
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.785
+- response: 7E80562F44239D4
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.804
+- response: 7E80562F44239E8
+  expected_values:
+    VOLKSWAGEN_VPWR: 14.824
