@@ -20,6 +20,18 @@ test_cases:
 - response: 77A05622A071F59
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A071F6E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A071F71
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A071F72
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A071F75
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A071FA7
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -32,10 +44,19 @@ test_cases:
 - response: 77A05622A071FDB
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A071FF4
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A071FF6
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072008
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072018
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072025
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072039
@@ -44,19 +65,55 @@ test_cases:
 - response: 77A05622A072045
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07204E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07204F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072051
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072054
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072059
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07205A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07205B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072061
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072062
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072064
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072067
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07206F
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072072
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072078
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07207B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072083
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072086
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072091
@@ -69,6 +126,9 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0720A9
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0720AA
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0720AB
@@ -122,6 +182,9 @@ test_cases:
 - response: 77A05622A0720CA
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0720CB
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0720D0
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -147,6 +210,18 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072174
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072193
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0721CC
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0721FD
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072225
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07222A
@@ -212,6 +287,12 @@ test_cases:
 - response: 77A05622A0722DF
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0722EB
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0722F4
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0722FF
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -221,7 +302,13 @@ test_cases:
 - response: 77A05622A07230B
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07230F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072313
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072315
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072327
@@ -236,16 +323,73 @@ test_cases:
 - response: 77A05622A072346
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072352
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072354
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072357
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07235A
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07235D
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07235E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07235F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072360
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072362
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072363
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072364
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072365
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072366
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072367
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072368
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072369
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07236A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07236B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07236C
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07236D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07236E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07236F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072370
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072371
@@ -257,16 +401,31 @@ test_cases:
 - response: 77A05622A072373
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072374
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072375
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072376
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072377
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072378
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072379
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07237A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07237B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07237C
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07237D
@@ -296,7 +455,13 @@ test_cases:
 - response: 77A05622A072385
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072386
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072387
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072388
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072389
@@ -326,6 +491,9 @@ test_cases:
 - response: 77A05622A072391
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072393
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072397
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -338,7 +506,13 @@ test_cases:
 - response: 77A05622A0723A2
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723A3
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723A5
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723A7
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723BD
@@ -351,6 +525,9 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723C6
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723C8
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723C9
@@ -377,10 +554,16 @@ test_cases:
 - response: 77A05622A0723D1
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723D2
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723D3
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723D4
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723D5
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723D6
@@ -434,6 +617,12 @@ test_cases:
 - response: 77A05622A0723E6
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723E7
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723E8
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723E9
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -446,6 +635,9 @@ test_cases:
 - response: 77A05622A0723EC
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723ED
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723EE
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -456,6 +648,12 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723F1
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723F2
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0723F3
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0723F4
@@ -482,10 +680,100 @@ test_cases:
 - response: 77A05622A072418
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072433
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072434
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072439
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07243A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07243B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07243D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07243E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07243F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072440
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072441
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072442
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072443
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072444
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072445
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072446
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072447
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072448
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072449
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244C
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07244F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072450
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072451
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072452
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072454
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072456
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072474
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07249D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07249F
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0724A2
@@ -576,6 +864,9 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0724C6
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07250E
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072525
@@ -695,6 +986,9 @@ test_cases:
 - response: 77A05622A07264B
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072664
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072678
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
@@ -791,34 +1085,91 @@ test_cases:
 - response: 77A05622A0726E6
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07276B
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07277A
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072782
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072786
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072792
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072798
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07279A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07279C
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07279E
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727A3
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727A4
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727A7
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727A8
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727A9
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727AA
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727AB
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727AC
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727AD
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727AE
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727AF
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B0
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B1
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727B2
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B3
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727B4
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B5
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727B6
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B7
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727B8
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727B9
@@ -873,6 +1224,9 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727EA
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0727EC
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0727ED
@@ -959,25 +1313,88 @@ test_cases:
 - response: 77A05622A072893
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0728C3
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0728EC
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A07290C
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072924
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072926
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072929
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A07294D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072951
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072965
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072980
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072982
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729A3
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729AB
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729AD
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729AF
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729B2
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729B4
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729B8
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729BA
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729BB
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729BD
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729BF
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729C3
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729C6
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729C7
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729C8
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729CE
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729D1
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729D7
@@ -987,6 +1404,57 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A0729D9
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729E7
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A0729F9
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A01
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A07
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A0D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A0F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A12
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A13
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A17
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A1A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A1F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A21
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A22
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A23
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A27
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A28
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A2C
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072A31
@@ -1011,5 +1479,38 @@ test_cases:
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
 - response: 77A05622A072A54
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A78
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A7C
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A87
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A88
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A8A
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A8D
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A8E
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A8F
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A95
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A96
+  expected_values:
+    VOLKSWAGEN_SSB_V: 69.54
+- response: 77A05622A072A97
   expected_values:
     VOLKSWAGEN_SSB_V: 69.54
