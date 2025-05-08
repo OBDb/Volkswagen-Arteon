@@ -2,15 +2,12 @@ command_id: 7E0.7E8.222062
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E805622062016E
+- response: '7E8056220620169'
   expected_values:
-    VOLKSWAGEN_APP_POS2: 0.366
+    VOLKSWAGEN_APP_POS2: 0.361
 - response: 7E80562206202FF
   expected_values:
     VOLKSWAGEN_APP_POS2: 0.767
-- response: '7E8056220620303'
+- response: '7E8056220620401'
   expected_values:
-    VOLKSWAGEN_APP_POS2: 0.771
-- response: 7E805622062043C
-  expected_values:
-    VOLKSWAGEN_APP_POS2: 1.084
+    VOLKSWAGEN_APP_POS2: 1.025

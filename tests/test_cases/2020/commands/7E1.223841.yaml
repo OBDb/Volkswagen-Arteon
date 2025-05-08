@@ -8,6 +8,6 @@ test_cases:
 - response: 7E90762384100092E00
   expected_values:
     VOLKSWAGEN_ODO_TCM_1: 3016960
-- response: '7E90762384100095204'
+- response: 7E90762384100095D08
   expected_values:
-    VOLKSWAGEN_ODO_TCM_1: 72485120
+    VOLKSWAGEN_ODO_TCM_1: 140314880
