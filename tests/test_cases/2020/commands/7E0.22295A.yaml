@@ -1,16 +1,20 @@
 command_id: 7E0.22295A
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80662295A00EAB3
-  expected_values:
-    VOLKSWAGEN_ODO_V3: 60083
-- response: 7E80662295A00EAFF
-  expected_values:
-    VOLKSWAGEN_ODO_V3: 60159
-- response: 7E80662295A00EB00
-  expected_values:
-    VOLKSWAGEN_ODO_V3: 60160
-- response: 7E80662295A0FFFFF
-  expected_values:
-    VOLKSWAGEN_ODO_V3: 1048575
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 60083
+  response: 7E80662295A00EAB3
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 60159
+  response: 7E80662295A00EAFF
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 60160
+  response: 7E80662295A00EB00
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 65280
+  response: 7E80662295A00FF00
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 65536
+  response: 7E80662295A010000
+- expected_values:
+    VOLKSWAGEN_ODO_V2: 1048575
+  response: 7E80662295A0FFFFF

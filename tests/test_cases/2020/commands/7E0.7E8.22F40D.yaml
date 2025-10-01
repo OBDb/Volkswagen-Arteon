@@ -1,10 +1,13 @@
 command_id: 7E0.7E8.22F40D
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80462F40D00
-  expected_values:
+- expected_values:
     VOLKSWAGEN_VSS: 0
-- response: 7E80462F40D7E
-  expected_values:
-    VOLKSWAGEN_VSS: 126
+  response: 7E80462F40D00
+- expected_values:
+    VOLKSWAGEN_VSS: 0
+  response: |-
+    7E80462F40D00
+    7E8027E00
+- expected_values:
+    VOLKSWAGEN_VSS: 255
+  response: 7E80462F40DFF
