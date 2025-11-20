@@ -1,0 +1,29 @@
+command_id: 70F.779.222B1E|fc=1
+test_cases:
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 0
+  response: 77905622B1E0000
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 6.7
+  response: 77905622B1E0043
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 15.5
+  response: 77905622B1E009B
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 21.2
+  response: 77905622B1E00D4
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 35.6
+  response: 77905622B1E0164
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 67.8
+  response: 77905622B1E02A6
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 70.3
+  response: 77905622B1E02BF
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 81.3
+  response: 77905622B1E032D
+- expected_values:
+    VOLKSWAGEN_4WD_RR_R_WHEEL_SPD: 98.7
+  response: 77905622B1E03DB
