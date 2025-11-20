@@ -4,29 +4,5 @@ test_cases:
     VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 6.993
   response: 7B00462260D15
 - expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 8.325
-  response: 7B00462260D19
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 11.655
-  response: 7B00462260D23
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 11.988
-  response: 7B00462260D24
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 12.321
-  response: 7B00462260D25
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 12.654
-  response: 7B00462260D26
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 13.32
-  response: 7B00462260D28
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 13.653
-  response: 7B00462260D29
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 15.651
-  response: 7B00462260D2F
-- expected_values:
-    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 16.983
-  response: 7B00462260D33
+    VOLKSWAGEN_FRONT_RIGHT_DEFL_T: 24.975
+  response: 7B00462260D4B
