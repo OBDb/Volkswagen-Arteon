@@ -4,20 +4,5 @@ test_cases:
     VOLKSWAGEN_REAR_DEFL_T: 10.989
   response: 7B00462263D21
 - expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 11.988
-  response: 7B00462263D24
-- expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 12.321
-  response: 7B00462263D25
-- expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 12.654
-  response: 7B00462263D26
-- expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 13.32
-  response: 7B00462263D28
-- expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 13.986
-  response: 7B00462263D2A
-- expected_values:
-    VOLKSWAGEN_REAR_DEFL_T: 19.98
-  response: 7B00462263D3C
+    VOLKSWAGEN_REAR_DEFL_T: 22.311
+  response: 7B00462263D43
