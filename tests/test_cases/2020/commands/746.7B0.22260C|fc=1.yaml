@@ -1,0 +1,32 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 6.66
+  response: 7B00462260C14
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 8.325
+  response: 7B00462260C19
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 11.322
+  response: 7B00462260C22
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 11.988
+  response: 7B00462260C24
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 12.321
+  response: 7B00462260C25
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 12.654
+  response: 7B00462260C26
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 13.32
+  response: 7B00462260C28
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 13.653
+  response: 7B00462260C29
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 15.318
+  response: 7B00462260C2E
+- expected_values:
+    VOLKSWAGEN_FRONT_LEFT_DEFL_T: 15.651
+  response: 7B00462260C2F
