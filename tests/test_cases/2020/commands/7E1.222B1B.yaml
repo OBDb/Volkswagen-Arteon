@@ -1,29 +1,29 @@
-command_id: 70F.779.222B1B|fc=1
+command_id: 7E1.222B1B
 test_cases:
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 0
+    VOLKSWAGEN_TIRE_FL_SPD: 0
   response: 77905622B1B0000
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 5.6
+    VOLKSWAGEN_TIRE_FL_SPD: 5.6
   response: 77905622B1B0038
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 14.9
+    VOLKSWAGEN_TIRE_FL_SPD: 14.9
   response: 77905622B1B0095
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 22.1
+    VOLKSWAGEN_TIRE_FL_SPD: 22.1
   response: 77905622B1B00DD
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 35.2
+    VOLKSWAGEN_TIRE_FL_SPD: 35.2
   response: 77905622B1B0160
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 67.4
+    VOLKSWAGEN_TIRE_FL_SPD: 67.4
   response: 77905622B1B02A2
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 71.1
+    VOLKSWAGEN_TIRE_FL_SPD: 71.1
   response: 77905622B1B02C7
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 81.6
+    VOLKSWAGEN_TIRE_FL_SPD: 81.6
   response: 77905622B1B0330
 - expected_values:
-    VOLKSWAGEN_4WD_FR_L_WHEEL_SPD: 98.9
+    VOLKSWAGEN_TIRE_FL_SPD: 98.9
   response: 77905622B1B03DD
