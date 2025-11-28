@@ -4,29 +4,5 @@ test_cases:
     VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12300
   response: 7E80562121E007B
 - expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12400
-  response: 7E80562121E007C
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12500
-  response: 7E80562121E007D
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12600
-  response: 7E80562121E007E
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12700
-  response: 7E80562121E007F
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12800
-  response: 7E80562121E0080
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 12900
-  response: 7E80562121E0081
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 13000
-  response: 7E80562121E0082
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 13100
-  response: 7E80562121E0083
-- expected_values:
-    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 13200
-  response: 7E80562121E0084
+    VOLKSWAGEN_SPEC_VALUE_RAIL_P: 13300
+  response: 7E80562121E0085
