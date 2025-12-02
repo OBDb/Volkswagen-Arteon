@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22113F
 test_cases:
 - expected_values:
-    VOLKSWAGEN_FUEL_CONS: 572.07
-  response: 7E80562113FDF77
+    VOLKSWAGEN_FUEL_CONS: 571.84
+  response: 7E80562113FDF60
 - expected_values:
     VOLKSWAGEN_FUEL_CONS: 573.43
   response: 7E80562113FDFFF
+- expected_values:
+    VOLKSWAGEN_FUEL_CONS: 573.44
+  response: 7E80562113FE000
 - expected_values:
     VOLKSWAGEN_FUEL_CONS: 576
   response: 7E80562113FE100
