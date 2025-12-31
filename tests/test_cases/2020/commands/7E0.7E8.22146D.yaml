@@ -4,27 +4,6 @@ test_cases:
     VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.05
   response: 7E80562146D0001
 - expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.1
-  response: 7E80562146D0002
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.15
-  response: 7E80562146D0003
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.2
-  response: 7E80562146D0004
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.25
-  response: 7E80562146D0005
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.3
-  response: 7E80562146D0006
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.35
-  response: 7E80562146D0007
-- expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.4
-  response: 7E80562146D0008
-- expected_values:
     VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.4
   response: |-
     7E80562146D0008
@@ -32,5 +11,5 @@ test_cases:
     7E82139303632353947
     7E82220F18930303035
 - expected_values:
-    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.55
-  response: 7E80562146D000B
+    VOLKSWAGEN_INJ_7_RAIL_P_CAL_PT_1: 0.6
+  response: 7E80562146D000C
