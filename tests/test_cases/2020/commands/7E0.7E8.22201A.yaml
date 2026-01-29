@@ -4,23 +4,8 @@ test_cases:
     VOLKSWAGEN_EOT_CALC: 0
   response: 7E80562201A0000
 - expected_values:
-    VOLKSWAGEN_EOT_CALC: 36
-  response: 7E80562201A0024
+    VOLKSWAGEN_EOT_CALC: 65533
+  response: 7E80562201AFFFD
 - expected_values:
-    VOLKSWAGEN_EOT_CALC: 38
-  response: 7E80562201A0026
-- expected_values:
-    VOLKSWAGEN_EOT_CALC: 44
-  response: 7E80562201A002C
-- expected_values:
-    VOLKSWAGEN_EOT_CALC: 48
-  response: 7E80562201A0030
-- expected_values:
-    VOLKSWAGEN_EOT_CALC: 88
-  response: 7E80562201A0058
-- expected_values:
-    VOLKSWAGEN_EOT_CALC: 89
-  response: 7E80562201A0059
-- expected_values:
-    VOLKSWAGEN_EOT_CALC: 93
-  response: 7E80562201A005D
+    VOLKSWAGEN_EOT_CALC: 65535
+  response: 7E80562201AFFFF
