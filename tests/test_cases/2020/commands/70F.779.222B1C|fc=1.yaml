@@ -1,29 +1,29 @@
-command_id: 7E1.222B1C
+command_id: 70F.779.222B1C|fc=1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 0
+    VOLKSWAGEN_PQ35_FR_VSS: 0
   response: 77905622B1C0000
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 4.3
+    VOLKSWAGEN_PQ35_FR_VSS: 4.3
   response: 77905622B1C002B
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 12.4
+    VOLKSWAGEN_PQ35_FR_VSS: 12.4
   response: 77905622B1C007C
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 26.3
+    VOLKSWAGEN_PQ35_FR_VSS: 26.3
   response: 77905622B1C0107
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 32.5
+    VOLKSWAGEN_PQ35_FR_VSS: 32.5
   response: 77905622B1C0145
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 67.1
+    VOLKSWAGEN_PQ35_FR_VSS: 67.1
   response: 77905622B1C029F
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 69.9
+    VOLKSWAGEN_PQ35_FR_VSS: 69.9
   response: 77905622B1C02BB
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 81.2
+    VOLKSWAGEN_PQ35_FR_VSS: 81.2
   response: 77905622B1C032C
 - expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 98.9
+    VOLKSWAGEN_PQ35_FR_VSS: 98.9
   response: 77905622B1C03DD

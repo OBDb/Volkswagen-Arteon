@@ -2,7 +2,9 @@ command_id: 710.77A.222A10|fc=1
 test_cases:
 - expected_values:
     VOLKSWAGEN_BAT_V_AT_REST: 9
+    VOLKSWAGEN_MQB_BAT_V_REST: 9
   response: 77A04622A1000
 - expected_values:
     VOLKSWAGEN_BAT_V_AT_REST: 21.70588
+    VOLKSWAGEN_MQB_BAT_V_REST: 15
   response: 77A04622A103C
