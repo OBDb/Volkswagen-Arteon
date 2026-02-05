@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.227064
 test_cases:
 - expected_values:
-    VOLKSWAGEN_MQB_TCM_ENG_TORQUE: 1
-  response: '7E9056270640001'
+    VOLKSWAGEN_MQB_TCM_ENG_TORQUE: 0
+  response: '7E9056270640000'
 - expected_values:
     VOLKSWAGEN_MQB_TCM_ENG_TORQUE: 253
   response: 7E90562706400FD
