@@ -4,8 +4,8 @@ test_cases:
     VOLKSWAGEN_EOT_CALC: 0
   response: 7E80562201A0000
 - expected_values:
-    VOLKSWAGEN_EOT_CALC: 65532
-  response: 7E80562201AFFFC
+    VOLKSWAGEN_EOT_CALC: 65529
+  response: 7E80562201AFFF9
 - expected_values:
     VOLKSWAGEN_EOT_CALC: 65535
   response: 7E80562201AFFFF
