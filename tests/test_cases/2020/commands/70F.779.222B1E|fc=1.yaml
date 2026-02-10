@@ -7,5 +7,5 @@ test_cases:
     VOLKSWAGEN_PQ35_RR_VSS: 25.5
   response: 77905622B1E00FF
 - expected_values:
-    VOLKSWAGEN_PQ35_RR_VSS: 129.9
-  response: 77905622B1E0513
+    VOLKSWAGEN_PQ35_RR_VSS: 128.2
+  response: 77905622B1E0502
