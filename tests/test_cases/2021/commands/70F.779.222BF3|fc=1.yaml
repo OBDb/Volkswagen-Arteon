@@ -1,0 +1,8 @@
+command_id: 70F.779.222BF3|fc=1
+test_cases:
+- expected_values:
+    ARTEON_PQ35_HAL_DUTY: 0
+  response: 77904622BF300
+- expected_values:
+    ARTEON_PQ35_HAL_DUTY: 25.19592
+  response: 77904622BF340

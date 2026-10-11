@@ -1,0 +1,8 @@
+command_id: 746.7B0.22482B|fc=1
+test_cases:
+- expected_values:
+    ARTEON_AC_CLUTCH: 0
+  response: 7B00462482B00
+- expected_values:
+    ARTEON_AC_CLUTCH: 164
+  response: 7B00462482BA4

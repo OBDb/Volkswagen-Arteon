@@ -1,14 +1,14 @@
 command_id: 70F.779.222BE6|fc=1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_PQ35_HAL_I: 0.005
+    ARTEON_PQ35_HAL_I: 0.005
   response: 77905622BE60005
 - expected_values:
-    VOLKSWAGEN_PQ35_HAL_I: 1.023
+    ARTEON_PQ35_HAL_I: 1.023
   response: 77905622BE603FF
 - expected_values:
-    VOLKSWAGEN_PQ35_HAL_I: 1.795
+    ARTEON_PQ35_HAL_I: 1.795
   response: 77905622BE60703
 - expected_values:
-    VOLKSWAGEN_PQ35_HAL_I: 4.618
+    ARTEON_PQ35_HAL_I: 4.618
   response: 77905622BE6120A

@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0F|fc=1
+test_cases:
+- expected_values:
+    ARTEON_SSB_AH: 22
+  response: 77A04622A0F16
+- expected_values:
+    ARTEON_SSB_AH: 36
+  response: 77A04622A0F24

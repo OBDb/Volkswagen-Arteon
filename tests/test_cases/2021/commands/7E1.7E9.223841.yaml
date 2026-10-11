@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223841
+test_cases:
+- expected_values:
+    ARTEON_ODO_V1: 58324
+  response: 7E9076238410008E648
+- expected_values:
+    ARTEON_ODO_V1: 58368
+  response: 7E9076238410008E800
+- expected_values:
+    ARTEON_ODO_V1: 58547
+  response: 7E9076238410008EEFE
+- expected_values:
+    ARTEON_ODO_V1: 58573
+  response: 7E9076238410008F002
+- expected_values:
+    ARTEON_ODO_V1: 101786
+  response: 7E907623841000F8804

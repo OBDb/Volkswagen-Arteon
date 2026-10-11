@@ -1,0 +1,8 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    ARTEON_AAT_FROMCABIN: -58
+  response: 7B0046226098C
+- expected_values:
+    ARTEON_AAT_FROMCABIN: -46
+  response: 7B004622609A4

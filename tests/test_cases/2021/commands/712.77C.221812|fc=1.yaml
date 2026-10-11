@@ -1,0 +1,51 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: 0.125
+  response: 77C06621812000101
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -17.5
+  response: 77C06621812FF7401
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -0.375
+  response: 77C06621812FFFD01
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: 0
+  response: |-
+    77C1008621812000073
+    77C216900AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: 4.625
+  response: |-
+    77C1008621812002517
+    77C21FB00AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -268.75
+  response: |-
+    77C1008621812F79AA9
+    77C218000AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -17.5
+  response: |-
+    77C1008621812FF746F
+    77C216C00AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -2.75
+  response: |-
+    77C1008621812FFEAAA
+    77C211E00AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -1.625
+  response: |-
+    77C1008621812FFF3F6
+    77C215C00AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -1.375
+  response: |-
+    77C1008621812FFF582
+    77C210000AAAAAAAAAA
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -0.125
+  response: |-
+    77C1008621812FFFF0E
+    77C210E00AAAAAAAAAA

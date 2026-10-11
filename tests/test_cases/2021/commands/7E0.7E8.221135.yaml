@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221135
+test_cases:
+- expected_values:
+    ARTEON_COOLANT_T: 5753.8
+  response: 7E805621135EB6D
+- expected_values:
+    ARTEON_COOLANT_T: 5940.1
+  response: 7E805621135F2B4

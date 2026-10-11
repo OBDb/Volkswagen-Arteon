@@ -1,0 +1,11 @@
+command_id: 710.77A.222A0E|fc=1
+test_cases:
+- expected_values:
+    ARTEON_SSB_RES_INT: 5.4
+  response: 77A04622A0E1B
+- expected_values:
+    ARTEON_SSB_RES_INT: 5.6
+  response: 77A04622A0E1C
+- expected_values:
+    ARTEON_SSB_RES_INT: 5.8
+  response: 77A04622A0E1D

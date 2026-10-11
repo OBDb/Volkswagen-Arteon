@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0C|fc=1
+test_cases:
+- expected_values:
+    ARTEON_SSB_SOC: 60
+  response: 77A04622A0C3C
+- expected_values:
+    ARTEON_SSB_SOC: 81
+  response: 77A04622A0C51

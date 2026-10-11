@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22388B
+test_cases:
+- expected_values:
+    ARTEON_MQB_TCM_DRIVE_CYCLES_COUNTER: 63245
+  response: 7E90562388B0DF7
+- expected_values:
+    ARTEON_MQB_TCM_DRIVE_CYCLES_COUNTER: 65293
+  response: 7E90562388B0DFF
+- expected_values:
+    ARTEON_MQB_TCM_DRIVE_CYCLES_COUNTER: 1294
+  response: 7E90562388B0E05
+- expected_values:
+    ARTEON_MQB_TCM_DRIVE_CYCLES_COUNTER: 14351
+  response: 7E90562388B0F38
