@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221515
+test_cases:
+- expected_values:
+    ARTEON_CAT_T_CALC: 485
+  response: 7E8056215156B00
+- expected_values:
+    ARTEON_CAT_T_CALC: 485
+  response: 7E8056215156B20
+- expected_values:
+    ARTEON_CAT_T_CALC: 485
+  response: 7E8056215156B40

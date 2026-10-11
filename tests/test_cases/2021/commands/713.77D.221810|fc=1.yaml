@@ -1,0 +1,32 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
+    77D217FFF00000000AA
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
+    77D217FFF0000007EAA
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
+    77D217FFF000002F4AA
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C6218100101FE
+    77D217FFF000002D0AA
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010302
+    77D217FFF000001C2AA
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C62181001FFC4
+    77D217FFF00000252AA

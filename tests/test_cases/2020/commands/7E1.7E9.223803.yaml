@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.223803
 test_cases:
 - expected_values:
-    VOLKSWAGEN_MQB_TCM_BRAKE_P: 10.35
+    ARTEON_MQB_TCM_BRAKE_P: 10.35
   response: 7E9056238030B04
 - expected_values:
-    VOLKSWAGEN_MQB_TCM_BRAKE_P: -4.96
+    ARTEON_MQB_TCM_BRAKE_P: -4.96
   response: 7E90562380310FE
 - expected_values:
-    VOLKSWAGEN_MQB_TCM_BRAKE_P: 307.5
+    ARTEON_MQB_TCM_BRAKE_P: 307.5
   response: 7E9056238031E78

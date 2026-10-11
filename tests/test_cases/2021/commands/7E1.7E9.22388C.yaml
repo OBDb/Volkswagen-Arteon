@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    ARTEON_MQB_TCM_IGNITION_CYCLES: 25880
+  response: 7E90562388C1865
+- expected_values:
+    ARTEON_MQB_TCM_IGNITION_CYCLES: 38946
+  response: 7E90562388C2298
+- expected_values:
+    ARTEON_MQB_TCM_IGNITION_CYCLES: 39458
+  response: 7E90562388C229A

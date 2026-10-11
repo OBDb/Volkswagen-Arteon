@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    ARTEON_FRONT_LEFT_DEFLECTOR_T: 30
+  response: 7B00462260C5A
+- expected_values:
+    ARTEON_FRONT_LEFT_DEFLECTOR_T: 58
+  response: 7B00462260CAE

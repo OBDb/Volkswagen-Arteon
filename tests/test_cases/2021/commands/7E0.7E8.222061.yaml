@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222061
+test_cases:
+- expected_values:
+    ARTEON_APP_POS1: 0.723
+  response: 7E80562206102D3
+- expected_values:
+    ARTEON_APP_POS1: 0.771
+  response: '7E8056220610303'
+- expected_values:
+    ARTEON_APP_POS1: 1.279
+  response: 7E80562206104FF
+- expected_values:
+    ARTEON_APP_POS1: 1.821
+  response: 7E805622061071D

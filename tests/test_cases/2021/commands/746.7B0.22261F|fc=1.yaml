@@ -1,0 +1,26 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 35
+  response: 7B00562261F0023
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 51
+  response: 7B00562261F0033
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 56
+  response: 7B00562261F0038
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 57
+  response: 7B00562261F0039
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 61
+  response: 7B00562261F003D
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 62
+  response: 7B00562261F003E
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 70
+  response: 7B00562261F0046
+- expected_values:
+    ARTEON_MQB_RECIRC_FLAP_TRG: 95
+  response: 7B00562261F005F

@@ -1,0 +1,11 @@
+command_id: 70F.779.222B1C|fc=1
+test_cases:
+- expected_values:
+    ARTEON_PQ35_FR_VSS: 0
+  response: 77905622B1C0000
+- expected_values:
+    ARTEON_PQ35_FR_VSS: 76.6
+  response: 77905622B1C02FE
+- expected_values:
+    ARTEON_PQ35_FR_VSS: 77
+  response: 77905622B1C0302

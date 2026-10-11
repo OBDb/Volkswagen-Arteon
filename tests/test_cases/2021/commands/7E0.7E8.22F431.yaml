@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    ARTEON_CLR_DIST: 2652
+  response: 7E80562F4310A5C
+- expected_values:
+    ARTEON_CLR_DIST: 2789
+  response: 7E80562F4310AE5
+- expected_values:
+    ARTEON_CLR_DIST: 2868
+  response: 7E80562F4310B34
+- expected_values:
+    ARTEON_CLR_DIST: 8127
+  response: 7E80562F4311FBF

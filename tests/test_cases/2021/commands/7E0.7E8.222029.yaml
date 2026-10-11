@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222029
+test_cases:
+- expected_values:
+    ARTEON_PQ35_CHARGE_AIR_P_SPECIFIED: 107.92
+  response: '7E8056220290545'
+- expected_values:
+    ARTEON_PQ35_CHARGE_AIR_P_SPECIFIED: 116.32
+  response: 7E80562202905AE
+- expected_values:
+    ARTEON_PQ35_CHARGE_AIR_P_SPECIFIED: 160
+  response: 7E80562202907D0

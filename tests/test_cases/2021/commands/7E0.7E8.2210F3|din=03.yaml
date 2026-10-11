@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210F3|din=03
+test_cases:
+- expected_values:
+    ARTEON_OIL_LEVEL_LAST_VALID: 3296
+  response: 7E8056210F30CE0
+- expected_values:
+    ARTEON_OIL_LEVEL_LAST_VALID: 3584
+  response: 7E8056210F30E00
+- expected_values:
+    ARTEON_OIL_LEVEL_LAST_VALID: 4606
+  response: 7E8056210F311FE
+- expected_values:
+    ARTEON_OIL_LEVEL_LAST_VALID: 10014
+  response: 7E8056210F3271E

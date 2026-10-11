@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    ARTEON_MQB_TCM_BRAKE_P: 317.55
+  response: 7E9056238030B7C
+- expected_values:
+    ARTEON_MQB_TCM_BRAKE_P: 0.15
+  response: 7E9056238030F00
+- expected_values:
+    ARTEON_MQB_TCM_BRAKE_P: -40.81
+  response: 7E9056238030FF0
+- expected_values:
+    ARTEON_MQB_TCM_BRAKE_P: 56.55
+  response: '7E9056238031716'

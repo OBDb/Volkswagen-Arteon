@@ -1,8 +1,8 @@
 command_id: 746.7B0.22261F|fc=1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 34
+    ARTEON_MQB_RECIRC_FLAP_TRG: 34
   response: 7B00562261F0022
 - expected_values:
-    VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 216
+    ARTEON_MQB_RECIRC_FLAP_TRG: 216
   response: 7B00562261F00D8

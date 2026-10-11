@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22121E
+test_cases:
+- expected_values:
+    ARTEON_SPEC_VALUE_RAIL_P: 275000
+  response: 7E80562121E0ABE
+- expected_values:
+    ARTEON_SPEC_VALUE_RAIL_P: 304200
+  response: 7E80562121E0BE2
+- expected_values:
+    ARTEON_SPEC_VALUE_RAIL_P: 304300
+  response: 7E80562121E0BE3

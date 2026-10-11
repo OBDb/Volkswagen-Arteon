@@ -1,0 +1,11 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    ARTEON_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B0056226120190
+- expected_values:
+    ARTEON_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201E0
+- expected_values:
+    ARTEON_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B0056226120226

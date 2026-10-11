@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    ARTEON_MEAN_INJ_QUANTITY: -47.03
+  response: 7E805621139EDA1
+- expected_values:
+    ARTEON_MEAN_INJ_QUANTITY: -40.96
+  response: 7E805621139F000
