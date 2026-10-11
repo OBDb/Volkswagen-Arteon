@@ -2974,7 +2974,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2022 },
   "signals": [
-    {"id": "ARTEON_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+    {"id": "ARTEON_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2105"}, "freq": 0.25,
   "signals": [

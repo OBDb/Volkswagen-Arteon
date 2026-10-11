@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.222104
 test_cases:
 - expected_values:
-    ARTEON_ATF_T: 37
+    ARTEON_ATF_T: -3
   response: '7E90462210425'
 - expected_values:
-    ARTEON_ATF_T: -122
+    ARTEON_ATF_T: 94
   response: '7E90462210486'
