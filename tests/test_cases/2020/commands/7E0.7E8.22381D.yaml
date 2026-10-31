@@ -4,11 +4,11 @@ test_cases:
     ARTEON_OIL_P_ACT_7E0_2_7E0: 108.6
   response: 7E80562381D043E
 - expected_values:
-    ARTEON_OIL_P_ACT_7E0_2_7E0: 258.5
-  response: 7E80562381D0A19
+    ARTEON_OIL_P_ACT_7E0_2_7E0: 255.8
+  response: 7E80562381D09FE
 - expected_values:
-    ARTEON_OIL_P_ACT_7E0_2_7E0: 351.3
-  response: 7E80562381D0DB9
+    ARTEON_OIL_P_ACT_7E0_2_7E0: 256.8
+  response: 7E80562381D0A08
 - expected_values:
-    ARTEON_OIL_P_ACT_7E0_2_7E0: 351.9
-  response: 7E80562381D0DBF
+    ARTEON_OIL_P_ACT_7E0_2_7E0: 404.5
+  response: 7E80562381D0FCD

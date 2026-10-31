@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     ARTEON_MANUAL_ENG_STARTS: 6305
   response: 7E80562299818A1
+- expected_values:
+    ARTEON_MANUAL_ENG_STARTS: 6306
+  response: 7E80562299818A2

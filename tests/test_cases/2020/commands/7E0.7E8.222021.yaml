@@ -7,20 +7,5 @@ test_cases:
     ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -4.6
   response: 7E805622021FFD2
 - expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -3.9
-  response: 7E805622021FFD9
-- expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -3.3
-  response: 7E805622021FFDF
-- expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -3.2
-  response: 7E805622021FFE0
-- expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -3
-  response: 7E805622021FFE2
-- expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -2.9
-  response: 7E805622021FFE3
-- expected_values:
-    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -2.8
-  response: 7E805622021FFE4
+    ARTEON_CAM_ADPT_INT_BANK_1_PHASE: -2.6
+  response: 7E805622021FFE6

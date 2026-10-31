@@ -1,29 +1,11 @@
 command_id: 7E0.7E8.22432B
 test_cases:
 - expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 997.5
-  response: 7E80562432B0F96
+    ARTEON_CHG_P_BEFORE_ACT: 994
+  response: 7E80562432B0F88
 - expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1000.5
-  response: 7E80562432B0FA2
+    ARTEON_CHG_P_BEFORE_ACT: 1091.75
+  response: 7E80562432B110F
 - expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1003
-  response: 7E80562432B0FAC
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1006.75
-  response: 7E80562432B0FBB
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1008
-  response: 7E80562432B0FC0
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1009.5
-  response: 7E80562432B0FC6
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1009.75
-  response: 7E80562432B0FC7
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1043.25
-  response: 7E80562432B104D
-- expected_values:
-    ARTEON_CHG_P_BEFORE_ACT: 1061.75
-  response: 7E80562432B1097
+    ARTEON_CHG_P_BEFORE_ACT: 8191
+  response: 7E80562432B7FFF

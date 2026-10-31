@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     ARTEON_ODO_MILEAGE_HR: 108008.205
   response: 77E076222B80670130D
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108009.049
+  response: 77E076222B806701659
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108009.469
+  response: 77E076222B8067017FD
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108009.635
+  response: 77E076222B8067018A3
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108009.7
+  response: 77E076222B8067018E4
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108009.742
+  response: 77E076222B80670190E

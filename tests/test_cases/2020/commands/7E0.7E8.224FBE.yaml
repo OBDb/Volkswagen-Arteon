@@ -4,23 +4,11 @@ test_cases:
     ARTEON_OIL_P_SENS_RAW: 225
   response: 7E805624FBE00E1
 - expected_values:
-    ARTEON_OIL_P_SENS_RAW: 783
-  response: 7E805624FBE030F
+    ARTEON_OIL_P_SENS_RAW: 764
+  response: 7E805624FBE02FC
 - expected_values:
-    ARTEON_OIL_P_SENS_RAW: 784
-  response: 7E805624FBE0310
+    ARTEON_OIL_P_SENS_RAW: 781
+  response: 7E805624FBE030D
 - expected_values:
-    ARTEON_OIL_P_SENS_RAW: 787
-  response: 7E805624FBE0313
-- expected_values:
-    ARTEON_OIL_P_SENS_RAW: 788
-  response: 7E805624FBE0314
-- expected_values:
-    ARTEON_OIL_P_SENS_RAW: 790
-  response: 7E805624FBE0316
-- expected_values:
-    ARTEON_OIL_P_SENS_RAW: 1098
-  response: 7E805624FBE044A
-- expected_values:
-    ARTEON_OIL_P_SENS_RAW: 1143
-  response: 7E805624FBE0477
+    ARTEON_OIL_P_SENS_RAW: 2404
+  response: 7E805624FBE0964

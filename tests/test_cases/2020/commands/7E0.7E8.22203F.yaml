@@ -10,23 +10,5 @@ test_cases:
     ARTEON_TQ_LIM_7E0: 105.1
   response: 7E80562203F041B
 - expected_values:
-    ARTEON_TQ_LIM_7E0: 105.6
-  response: 7E80562203F0420
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 110.4
-  response: 7E80562203F0450
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 115.8
-  response: 7E80562203F0486
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 118.1
-  response: 7E80562203F049D
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 143.6
-  response: 7E80562203F059C
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 156.4
-  response: 7E80562203F061C
-- expected_values:
-    ARTEON_TQ_LIM_7E0: 176.2
-  response: 7E80562203F06E2
+    ARTEON_TQ_LIM_7E0: 433
+  response: 7E80562203F10EA

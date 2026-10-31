@@ -4,17 +4,8 @@ test_cases:
     ARTEON_GEN_CURRENT: 9
   response: 77A05622A1C0000
 - expected_values:
-    ARTEON_GEN_CURRENT: 41.5
-  response: 77A05622A1C0145
-- expected_values:
-    ARTEON_GEN_CURRENT: 42.4
-  response: 77A05622A1C014E
-- expected_values:
-    ARTEON_GEN_CURRENT: 48.5
-  response: 77A05622A1C018B
-- expected_values:
-    ARTEON_GEN_CURRENT: 72
-  response: 77A05622A1C0276
+    ARTEON_GEN_CURRENT: 63
+  response: 77A05622A1C021C
 - expected_values:
     ARTEON_GEN_CURRENT: 80.4
   response: 77A05622A1C02CA

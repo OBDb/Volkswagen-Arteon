@@ -4,29 +4,8 @@ test_cases:
     ARTEON_RPM: 0
   response: 7E80562F40C0000
 - expected_values:
-    ARTEON_RPM: 836
-  response: 7E80562F40C0D10
-- expected_values:
-    ARTEON_RPM: 843.5
-  response: 7E80562F40C0D2E
-- expected_values:
-    ARTEON_RPM: 844.5
-  response: 7E80562F40C0D32
-- expected_values:
-    ARTEON_RPM: 848.5
-  response: 7E80562F40C0D42
-- expected_values:
-    ARTEON_RPM: 854
-  response: 7E80562F40C0D58
-- expected_values:
-    ARTEON_RPM: 875
-  response: 7E80562F40C0DAC
-- expected_values:
-    ARTEON_RPM: 884
-  response: 7E80562F40C0DD0
-- expected_values:
-    ARTEON_RPM: 986
-  response: 7E80562F40C0F68
+    ARTEON_RPM: 1599.5
+  response: 7E80562F40C18FE
 - expected_values:
     ARTEON_RPM: 1760
   response: 7E80562F40C1B80

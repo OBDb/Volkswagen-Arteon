@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     ARTEON_VSS_7E1: 0
   response: 7E90562F40D0000
+- expected_values:
+    ARTEON_VSS_7E1: 16
+  response: 7E90562F40D1004
+- expected_values:
+    ARTEON_VSS_7E1: 118
+  response: 7E90562F40D7607
+- expected_values:
+    ARTEON_VSS_7E1: 212
+  response: 7E90562F40DD408
+- expected_values:
+    ARTEON_VSS_7E1: 228
+  response: 7E90562F40DE407

@@ -1,32 +1,14 @@
 command_id: 7E0.7E8.224F97
 test_cases:
 - expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 44.82
-  response: 7E805624F971182
+    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 42.74
+  response: 7E805624F9710B2
 - expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 44.95
-  response: 7E805624F97118F
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 44.98
-  response: 7E805624F971192
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 45.67
-  response: 7E805624F9711D7
+    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 43.55
+  response: 7E805624F971103
 - expected_values:
     ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 45.73
   response: 7E805624F9711DD
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 46.25
-  response: 7E805624F971211
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 47.24
-  response: 7E805624F971274
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 48.26
-  response: 7E805624F9712DA
-- expected_values:
-    ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 52.75
-  response: 7E805624F97149B
 - expected_values:
     ARTEON_OIL_P_CTRL_VLV_ACTIVATION: 100
   response: 7E805624F972710

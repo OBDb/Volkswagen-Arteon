@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.22445A
 test_cases:
 - expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 853
-  response: 7E80562445A10A9
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 946
-  response: 7E80562445A127A
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 965.4
-  response: 7E80562445A12DB
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 989.8
-  response: 7E80562445A1355
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 990.2
-  response: 7E80562445A1357
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 994.8
-  response: 7E80562445A136E
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 1003.4
-  response: 7E80562445A1399
-- expected_values:
-    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 1003.8
-  response: 7E80562445A139B
+    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 838
+  response: 7E80562445A105E
 - expected_values:
     ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 1030
   response: 7E80562445A141E
+- expected_values:
+    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 1326
+  response: 7E80562445A19E6
+- expected_values:
+    ARTEON_CHG_AIR_COOLER_INLET_P_1_1: 1552.2
+  response: 7E80562445A1E51

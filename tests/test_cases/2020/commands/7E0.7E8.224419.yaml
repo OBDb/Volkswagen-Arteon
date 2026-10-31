@@ -10,6 +10,9 @@ test_cases:
     ARTEON_ENG_T_MANAGEMENT: 10475
   response: 7E80562441928EB
 - expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10481
+  response: 7E80562441928F1
+- expected_values:
     ARTEON_ENG_T_MANAGEMENT: 10646
   response: '7E8056244192996'
 - expected_values:

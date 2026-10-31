@@ -4,6 +4,12 @@ test_cases:
     ARTEON_GEN_LOAD_SIG: 0.02
   response: '7E8056220500002'
 - expected_values:
+    ARTEON_GEN_LOAD_SIG: 22.57
+  response: 7E80562205008D1
+- expected_values:
+    ARTEON_GEN_LOAD_SIG: 25.8
+  response: 7E8056220500A14
+- expected_values:
     ARTEON_GEN_LOAD_SIG: 29.02
   response: 7E8056220500B56
 - expected_values:

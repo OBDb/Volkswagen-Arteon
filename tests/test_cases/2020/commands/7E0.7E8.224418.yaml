@@ -4,6 +4,12 @@ test_cases:
     ARTEON_THERMOSTAT_ACT: 0
   response: '7E8056244180000'
 - expected_values:
+    ARTEON_THERMOSTAT_ACT: 38.29336
+  response: 7E8056244180C41
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 38.30557
+  response: 7E8056244180C42
+- expected_values:
     ARTEON_THERMOSTAT_ACT: 38.32998
   response: 7E8056244180C44
 - expected_values:
