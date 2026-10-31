@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ARTEON_POST_INJ_1_7E0: 0
   response: 7E80562205D0000
+- expected_values:
+    ARTEON_POST_INJ_1_7E0: 0.547
+  response: 7E80562205D0223

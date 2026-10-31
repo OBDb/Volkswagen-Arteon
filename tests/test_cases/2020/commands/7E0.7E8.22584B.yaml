@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22584B
 test_cases:
 - expected_values:
-    ARTEON_CYL_3_INTERNAL_TQ: 27.3
-  response: 7E80562584B0111
+    ARTEON_CYL_3_INTERNAL_TQ: 0.1
+  response: 7E80562584B0001
 - expected_values:
     ARTEON_CYL_3_INTERNAL_TQ: 51
   response: 7E80562584B01FE

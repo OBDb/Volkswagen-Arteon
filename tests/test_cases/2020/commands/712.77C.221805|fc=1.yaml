@@ -7,5 +7,23 @@ test_cases:
     ARTEON_STEER_WHL_TQ_SENS_1: 0.36765
   response: 77C06621805004600
 - expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: 0.39841
+  response: 77C06621805004D00
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: 0.94779
+  response: 77C0662180500CA00
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: 1.91029
+  response: 77C0662180501A500
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: 1.94106
+  response: 77C0662180501AC00
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: -12.5932
+  response: 77C06621805F4C100
+- expected_values:
     ARTEON_STEER_WHL_TQ_SENS_1: -0.7311
   response: 77C06621805FF4C00
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_1: -0.42345
+  response: 77C06621805FF9200

@@ -4,11 +4,8 @@ test_cases:
     ARTEON_OIL_P_TGT: 240
   response: 7E805624F700960
 - expected_values:
-    ARTEON_OIL_P_TGT: 260
-  response: 7E805624F700A28
-- expected_values:
-    ARTEON_OIL_P_TGT: 301.9
-  response: 7E805624F700BCB
+    ARTEON_OIL_P_TGT: 257.4
+  response: 7E805624F700A0E
 - expected_values:
     ARTEON_OIL_P_TGT: 382.9
   response: 7E805624F700EF5

@@ -1,29 +1,11 @@
 command_id: 7E0.7E8.22584D
 test_cases:
 - expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 0.8
-  response: 7E80562584D0008
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 22.8
-  response: 7E80562584D00E4
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 24.1
-  response: 7E80562584D00F1
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 28.1
-  response: 7E80562584D0119
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 28.8
-  response: 7E80562584D0120
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 32.4
-  response: 7E80562584D0144
-- expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 32.8
-  response: 7E80562584D0148
+    ARTEON_CYL_4_INTERNAL_TQ: 0.2
+  response: 7E80562584D0002
 - expected_values:
     ARTEON_CYL_4_INTERNAL_TQ: 49.8
   response: 7E80562584D01F2
 - expected_values:
-    ARTEON_CYL_4_INTERNAL_TQ: 64.3
-  response: 7E80562584D0283
+    ARTEON_CYL_4_INTERNAL_TQ: 209.6
+  response: 7E80562584D0830

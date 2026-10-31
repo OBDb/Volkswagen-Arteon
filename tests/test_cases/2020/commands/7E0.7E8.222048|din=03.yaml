@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.222048|din=03
 test_cases:
 - expected_values:
+    ARTEON_INJ_AMOUNT_DEV_CYL_3: 0
+  response: '7E8056220480000'
+- expected_values:
+    ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.01282
+  response: '7E8056220480023'
+- expected_values:
+    ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.02564
+  response: '7E8056220480046'
+- expected_values:
+    ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.03076
+  response: '7E8056220480054'
+- expected_values:
     ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.03589
   response: '7E8056220480062'
 - expected_values:
@@ -9,6 +21,9 @@ test_cases:
 - expected_values:
     ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.03772
   response: '7E8056220480067'
+- expected_values:
+    ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.03919
+  response: 7E805622048006B
 - expected_values:
     ARTEON_INJ_AMOUNT_DEV_CYL_3: 0.04798
   response: '7E8056220480083'

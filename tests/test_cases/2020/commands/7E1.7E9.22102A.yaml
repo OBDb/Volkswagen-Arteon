@@ -12,3 +12,18 @@ test_cases:
 - expected_values:
     ARTEON_CLU_CENTER_CENTRAL_T: 26
   response: 7E90562102A1A00
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 38
+  response: 7E90562102A2600
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 40
+  response: 7E90562102A2800
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 41
+  response: 7E90562102A2900
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 43
+  response: 7E90562102A2B00
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 45
+  response: 7E90562102A2D00

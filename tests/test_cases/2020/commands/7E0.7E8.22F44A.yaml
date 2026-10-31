@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     ARTEON_ACCEL_PEDAL_POS_2: 25.09804
   response: 7E80462F44A40
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 28.23529
+  response: 7E80462F44A48
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 37.64706
+  response: 7E80462F44A60
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 44.31373
+  response: 7E80462F44A71
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 47.84314
+  response: 7E80462F44A7A

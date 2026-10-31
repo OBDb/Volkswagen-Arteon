@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     ARTEON_ENERGY_BALANCE_LAST: 12.04
   response: 77A05622A1504B4
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.07
+  response: 77A05622A1504B7
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.09
+  response: 77A05622A1504B9
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.1
+  response: 77A05622A1504BA
