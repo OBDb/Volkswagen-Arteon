@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 0
+  response: 7E80562209B0000
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 6.7
+  response: 7E80562209B0043
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 7
+  response: 7E80562209B0046
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 7.3
+  response: 7E80562209B0049
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 7.4
+  response: 7E80562209B004A
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 7.5
+  response: 7E80562209B004B
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 9.6
+  response: 7E80562209B0060
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 12.3
+  response: 7E80562209B007B

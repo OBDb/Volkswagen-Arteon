@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221029
+test_cases:
+- expected_values:
+    ARTEON_CURRENT_N371_P_CTRL_6: 1843.5
+  response: '7E9056210294803'
+- expected_values:
+    ARTEON_CURRENT_N371_P_CTRL_6: 2099.5
+  response: '7E9056210295203'
+- expected_values:
+    ARTEON_CURRENT_N371_P_CTRL_6: 2611.5
+  response: '7E9056210296603'
+- expected_values:
+    ARTEON_CURRENT_N371_P_CTRL_6: 2867.5
+  response: '7E9056210297003'

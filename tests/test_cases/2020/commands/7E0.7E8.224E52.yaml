@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224E52
+test_cases:
+- expected_values:
+    ARTEON_OIL_LEVEL_TEST_2: 3.48
+  response: 7E805624E52015C

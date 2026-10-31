@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221001
+test_cases:
+- expected_values:
+    ARTEON_TIRE_FR_SPD_V3: 255
+  response: '7E9056210018000'
+- expected_values:
+    ARTEON_TIRE_FR_SPD_V3: 255
+  response: '7E9056210018300'
+- expected_values:
+    ARTEON_TIRE_FR_SPD_V3: 255
+  response: '7E9056210018400'

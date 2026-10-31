@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2229B1
+test_cases:
+- expected_values:
+    ARTEON_REMAINING_DIST_UNTIL: 2931
+  response: 7E8076229B10000E4FC
+- expected_values:
+    ARTEON_REMAINING_DIST_UNTIL: 2932
+  response: 7E8076229B10000E510
+- expected_values:
+    ARTEON_REMAINING_DIST_UNTIL: 2933
+  response: 7E8076229B10000E524
+- expected_values:
+    ARTEON_REMAINING_DIST_UNTIL: 2935
+  response: 7E8076229B10000E54C
+- expected_values:
+    ARTEON_REMAINING_DIST_UNTIL: 2936
+  response: 7E8076229B10000E560

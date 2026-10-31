@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 0
+  response: '7E8056244180000'
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 38.32998
+  response: 7E8056244180C44
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 39.2333
+  response: 7E8056244180C8E
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 39.26992
+  response: 7E8056244180C91
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 99.99974
+  response: '7E8056244182000'

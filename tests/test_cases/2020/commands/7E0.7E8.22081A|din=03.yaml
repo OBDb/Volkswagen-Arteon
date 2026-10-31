@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22081A|din=03
+test_cases:
+- expected_values:
+    ARTEON_POST_INJ_1: 0
+  response: 7E80562081A0000
+- expected_values:
+    ARTEON_POST_INJ_1: 14.1
+  response: 7E80562081A008D
+- expected_values:
+    ARTEON_POST_INJ_1: 14.3
+  response: 7E80562081A008F
+- expected_values:
+    ARTEON_POST_INJ_1: 14.5
+  response: 7E80562081A0091
+- expected_values:
+    ARTEON_POST_INJ_1: 18.7
+  response: 7E80562081A00BB

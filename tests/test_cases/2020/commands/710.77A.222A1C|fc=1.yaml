@@ -1,0 +1,20 @@
+command_id: 710.77A.222A1C|fc=1
+test_cases:
+- expected_values:
+    ARTEON_GEN_CURRENT: 9
+  response: 77A05622A1C0000
+- expected_values:
+    ARTEON_GEN_CURRENT: 41.5
+  response: 77A05622A1C0145
+- expected_values:
+    ARTEON_GEN_CURRENT: 42.4
+  response: 77A05622A1C014E
+- expected_values:
+    ARTEON_GEN_CURRENT: 48.5
+  response: 77A05622A1C018B
+- expected_values:
+    ARTEON_GEN_CURRENT: 72
+  response: 77A05622A1C0276
+- expected_values:
+    ARTEON_GEN_CURRENT: 80.4
+  response: 77A05622A1C02CA

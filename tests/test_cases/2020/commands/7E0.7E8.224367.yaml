@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.224367
+test_cases:
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 0
+  response: '7E8056243670000'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 421.2
+  response: '7E8056243671074'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 438.8
+  response: '7E8056243671124'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 448
+  response: '7E8056243671180'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 450.4
+  response: '7E8056243671198'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 464.8
+  response: '7E8056243671228'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 474.8
+  response: 7E805624367128C
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 476.4
+  response: 7E805624367129C
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 500
+  response: '7E8056243671388'
+- expected_values:
+    ARTEON_CYL_CHG_ACT: 502
+  response: 7E805624367139C

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221021
+test_cases:
+- expected_values:
+    ARTEON_TCM_DRAG_TQ: 27392
+  response: 7E9056210216B00

@@ -1,0 +1,17 @@
+command_id: 710.77A.222A15|fc=1
+test_cases:
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 11.99
+  response: 77A05622A1504AF
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12
+  response: 77A05622A1504B0
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.01
+  response: 77A05622A1504B1
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.03
+  response: 77A05622A1504B3
+- expected_values:
+    ARTEON_ENERGY_BALANCE_LAST: 12.04
+  response: 77A05622A1504B4

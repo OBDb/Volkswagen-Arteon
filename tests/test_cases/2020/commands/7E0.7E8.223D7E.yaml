@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.223D7E
+test_cases:
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 0
+  response: 7E805623D7E0000
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 37600
+  response: 7E805623D7E0178
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 38000
+  response: 7E805623D7E017C
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 39400
+  response: 7E805623D7E018A
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 40300
+  response: 7E805623D7E0193
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 42000
+  response: 7E805623D7E01A4
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 43100
+  response: 7E805623D7E01AF
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 43800
+  response: 7E805623D7E01B6
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 65800
+  response: 7E805623D7E0292
+- expected_values:
+    ARTEON_EXH_GAS_JET_VOLUME: 211500
+  response: 7E805623D7E0843

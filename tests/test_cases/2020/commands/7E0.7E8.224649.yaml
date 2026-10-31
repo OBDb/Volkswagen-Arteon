@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224649
+test_cases:
+- expected_values:
+    ARTEON_MAX_ECU_T: 86.7
+  response: 7E8056246490E0E

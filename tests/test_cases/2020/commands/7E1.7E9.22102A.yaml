@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22102A
+test_cases:
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 21
+  response: 7E90562102A1500
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 23
+  response: 7E90562102A1700
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 24
+  response: 7E90562102A1800
+- expected_values:
+    ARTEON_CLU_CENTER_CENTRAL_T: 26
+  response: 7E90562102A1A00

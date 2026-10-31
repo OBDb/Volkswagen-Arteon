@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ARTEON_ODO_DASH: 85668
   response: 77E06622203014EA4
+- expected_values:
+    ARTEON_ODO_DASH: 108008
+  response: 77E0662220301A5E8

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F44A
+test_cases:
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 14.11765
+  response: 7E80462F44A24
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 14.5098
+  response: 7E80462F44A25
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 21.96078
+  response: 7E80462F44A38
+- expected_values:
+    ARTEON_ACCEL_PEDAL_POS_2: 25.09804
+  response: 7E80462F44A40
