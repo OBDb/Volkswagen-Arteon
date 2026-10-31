@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22107D
+test_cases:
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_3: 711.88
+  response: 7E90762107D0A8B0300

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224460
+test_cases:
+- expected_values:
+    ARTEON_HIGH_FUEL_P_ACT_7E0: 7600
+  response: 7E805624460004C
+- expected_values:
+    ARTEON_HIGH_FUEL_P_ACT_7E0: 356200
+  response: 7E8056244600DEA
+- expected_values:
+    ARTEON_HIGH_FUEL_P_ACT_7E0: 360400
+  response: 7E8056244600E14
+- expected_values:
+    ARTEON_HIGH_FUEL_P_ACT_7E0: 416400
+  response: '7E8056244601044'

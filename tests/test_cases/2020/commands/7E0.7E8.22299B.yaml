@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22299B
+test_cases:
+- expected_values:
+    ARTEON_COMPRESSION_TEST_CYL_1: 0
+  response: 7E80562299B0000

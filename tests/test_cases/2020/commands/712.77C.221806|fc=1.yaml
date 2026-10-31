@@ -1,0 +1,11 @@
+command_id: 712.77C.221806|fc=1
+test_cases:
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_2: 0.29733
+  response: 77C06621806003600
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_2: 0.36765
+  response: 77C06621806004600
+- expected_values:
+    ARTEON_STEER_WHL_TQ_SENS_2: -0.7311
+  response: 77C06621806FF4C00

@@ -1,6 +1,12 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: 23.75
+  response: 77C0662181200BE01
+- expected_values:
+    ARTEON_STEER_WHEEL_ANGLE: -28.375
+  response: 77C06621812FF1D01
+- expected_values:
     ARTEON_STEER_WHEEL_ANGLE: 0
   response: |-
     77C100862181200000C

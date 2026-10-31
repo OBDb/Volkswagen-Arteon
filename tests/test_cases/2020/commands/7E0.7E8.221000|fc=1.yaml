@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221000|fc=1
+test_cases:
+- expected_values:
+    ARTEON_AAT_7E0: -48
+  response: |-
+    7E81010621000000000
+    7E82100000000000000
+    7E822000000AAAAAAAA
+- expected_values:
+    ARTEON_AAT_7E0: -48
+  response: |-
+    7E81010621000000000
+    7E821001AAFB968C000
+    7E822000000AAAAAAAA
+- expected_values:
+    ARTEON_AAT_7E0: -48
+  response: |-
+    7E81010621000000000
+    7E821001AAFB9838000
+    7E822000000AAAAAAAA
+- expected_values:
+    ARTEON_AAT_7E0: -48
+  response: |-
+    7E81010621000000000
+    7E821001AAFBA3C8000
+    7E822000000AAAAAAAA

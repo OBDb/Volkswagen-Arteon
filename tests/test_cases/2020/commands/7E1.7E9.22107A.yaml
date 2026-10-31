@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22107A
+test_cases:
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 1255.16
+  response: 7E90762107A26F5A20C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 492.42
+  response: 7E90762107A2D60A30C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 191.06
+  response: 7E90762107A5125A30C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 1159.02
+  response: 7E90762107A5FE2A20C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 396.22
+  response: 7E90762107A634DA30C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 300.58
+  response: 7E90762107AB53AA30C
+- expected_values:
+    ARTEON_ANALYSIS_CLU_2_T_0: 568.28
+  response: 7E90762107AFE6EA30C

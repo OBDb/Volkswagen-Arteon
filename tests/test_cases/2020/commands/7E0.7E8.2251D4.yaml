@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2251D4
+test_cases:
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 26.9
+  response: 7E8056251D40BB8
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 29.5
+  response: 7E8056251D40BD2
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 32.2
+  response: 7E8056251D40BED
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 37.2
+  response: 7E8056251D40C1F
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 40.5
+  response: 7E8056251D40C40
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 40.7
+  response: 7E8056251D40C42
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 41.2
+  response: 7E8056251D40C47
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 42.5
+  response: 7E8056251D40C54
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 44.6
+  response: 7E8056251D40C69
+- expected_values:
+    ARTEON_CYL_BLOCK_T_SENS: 46.7
+  response: 7E8056251D40C7E

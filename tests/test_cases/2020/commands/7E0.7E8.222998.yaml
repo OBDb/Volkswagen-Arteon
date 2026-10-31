@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222998
+test_cases:
+- expected_values:
+    ARTEON_MANUAL_ENG_STARTS: 6301
+  response: 7E805622998189D
+- expected_values:
+    ARTEON_MANUAL_ENG_STARTS: 6302
+  response: 7E805622998189E
+- expected_values:
+    ARTEON_MANUAL_ENG_STARTS: 6304
+  response: 7E80562299818A0
+- expected_values:
+    ARTEON_MANUAL_ENG_STARTS: 6305
+  response: 7E80562299818A1

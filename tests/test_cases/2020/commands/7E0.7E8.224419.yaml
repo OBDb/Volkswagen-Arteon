@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10463
+  response: 7E80562441928DF
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10469
+  response: 7E80562441928E5
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10475
+  response: 7E80562441928EB
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10646
+  response: '7E8056244192996'
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10652
+  response: 7E805624419299C
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 10659
+  response: 7E80562441929A3
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 12514
+  response: 7E80562441930E2
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 21738
+  response: 7E80562441954EA

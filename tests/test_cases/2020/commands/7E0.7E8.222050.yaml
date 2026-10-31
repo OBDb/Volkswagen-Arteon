@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222050
+test_cases:
+- expected_values:
+    ARTEON_GEN_LOAD_SIG: 0.02
+  response: '7E8056220500002'
+- expected_values:
+    ARTEON_GEN_LOAD_SIG: 29.02
+  response: 7E8056220500B56
+- expected_values:
+    ARTEON_GEN_LOAD_SIG: 32.24
+  response: 7E8056220500C98
+- expected_values:
+    ARTEON_GEN_LOAD_SIG: 35.46
+  response: 7E8056220500DDA

@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 1065.5
+  response: 7E9076210651BD0770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 963.4
+  response: 7E9076210652ABC770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 1235.36
+  response: 7E90762106548F1770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 615.86
+  response: 7E9076210654978770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 863.1
+  response: 7E90762106593A8770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 526.04
+  response: 7E907621065BE66770A
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 1161.44
+  response: 7E907621065D8E2770A

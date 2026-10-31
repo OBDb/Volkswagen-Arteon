@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22432F
+test_cases:
+- expected_values:
+    ARTEON_CYL_CHG_SPEC: 441.4
+  response: 7E80562432F113E
+- expected_values:
+    ARTEON_CYL_CHG_SPEC: 457.4
+  response: 7E80562432F11DE
+- expected_values:
+    ARTEON_CYL_CHG_SPEC: 501.2
+  response: 7E80562432F1394

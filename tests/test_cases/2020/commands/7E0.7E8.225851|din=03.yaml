@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.225851|din=03
+test_cases:
+- expected_values:
+    ARTEON_SERVICE_LIM_7E0: 40
+  response: 7E8056258510FA0

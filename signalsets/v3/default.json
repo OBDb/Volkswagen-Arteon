@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2019, "from": 2022 },
   "signals": [
     {"id": "ARTEON_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
@@ -62,7 +65,7 @@
   "signals": [
     {"id": "ARTEON_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
@@ -99,7 +102,7 @@
   "signals": [
     {"id": "ARTEON_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A15"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENERGY_BALANCE_LAST", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "ampereHours" }, "name": "Energy balance of last driving cycle"}
   ]},
@@ -111,11 +114,11 @@
   "signals": [
     {"id": "ARTEON_ENTIRE_ENERGY", "path": "Tires", "fmt": { "len": 24, "max": 838860, "min": -838860, "div": 10, "sign": true, "unit": "ampereHours" }, "name": "Entire energy throughput"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A1C"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A25"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -132,11 +135,11 @@
   "signals": [
     {"id": "ARTEON_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1805"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1806"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_STEER_WHL_TQ_SENS_2", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 2"}
   ]},
@@ -168,7 +171,7 @@
   "signals": [
     {"id": "ARTEON_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "220C"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -188,7 +191,7 @@
   "signals": [
     {"id": "ARTEON_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR"}
   ]},
@@ -276,7 +279,7 @@
   "signals": [
     {"id": "ARTEON_HVAC_OUTSIDE_HUM", "path": "Climate", "fmt": {"bix": 56, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Outside humidity"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "482B"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "482B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2022 },
   "signals": [
     {"id": "ARTEON_AC_CLUTCH", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
@@ -302,19 +305,19 @@
   "signals": [
     {"id": "ARTEON_ENG_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine control module temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "080C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "080C"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_2", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Post injection 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "081A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "081A"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_1", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Post injection 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "081B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "081B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_3", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Post injection 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1000"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1000"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_AAT_7E0", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -1650,7 +1653,7 @@
   "signals": [
     {"id": "ARTEON_FUEL_INJ_TIME_DEV_1", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Fuel injector time deviation, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2002"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -1690,7 +1693,7 @@
   "signals": [
     {"id": "ARTEON_PQ35_TIMING_ANGLE_RETARDATION_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2017"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2017"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_AC_COMP_TQ", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
@@ -1710,7 +1713,7 @@
   "signals": [
     {"id": "ARTEON_CAM_ADJ_INT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, intake, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2021"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2021"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CAM_ADPT_INT_BANK_1_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake bank 1, phase position"}
   ]},
@@ -1750,7 +1753,7 @@
   "signals": [
     {"id": "ARTEON_ECT_DIFF_ENG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature difference between engine and radiator"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202F"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_EOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -1766,23 +1769,23 @@
   "signals": [
     {"id": "ARTEON_FUEL_T_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203F"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TQ_LIM_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque limitation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2046"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2046"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_INJ_AMOUNT_DEV_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2047"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2047"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_INJ_AMOUNT_DEV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2048"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2048"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_INJ_AMOUNT_DEV_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2049"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2049"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_INJ_AMOUNT_DEV_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 4"}
   ]},
@@ -1794,11 +1797,11 @@
   "signals": [
     {"id": "ARTEON_INJ_QTY_DEV_CYL_5", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2050"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2050"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_GEN_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load signal"}
   ]},
@@ -1810,11 +1813,11 @@
   "signals": [
     {"id": "ARTEON_CLT_FAN_2_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant fan 2, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "205D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "205D"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_1_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "205F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "205F"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_2_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 2"}
   ]},
@@ -1838,7 +1841,7 @@
   "signals": [
     {"id": "ARTEON_INT_MANIFOLD_RUNNER_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Intake manifold runner control, acknowledgment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206E"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206E"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CRANK_SPD_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Crankshaft speed, RPM"}
   ]},
@@ -1850,7 +1853,7 @@
   "signals": [
     {"id": "ARTEON_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 32, "max": 1310, "mul": 0.0000003052, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2097"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2097"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_MEAN_INJ_QTY", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
@@ -1858,7 +1861,7 @@
   "signals": [
     {"id": "ARTEON_FUEL_METERING_VLV", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Fuel metering valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "209B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "209B"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TQ_REQ_SUM_AUXILIARY", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque request, sum of auxiliary aggregate"}
   ]},
@@ -1883,11 +1886,11 @@
     {"id": "ARTEON_OIL_P_SWITCH_HIGH_P", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for high pressure, closed"},
     {"id": "ARTEON_OIL_P_SWITCH_LOW_P",  "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for low pressure, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20BB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20BB"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_FUEL_HIGH_P_CTRL_DEV", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "bars" }, "name": "Fuel high pressure, control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "20C0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "20C0"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_POST_INJ_3_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 3"}
   ]},
@@ -1983,7 +1986,7 @@
   "signals": [
     {"id": "ARTEON_CAM_ADJ_INT_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Camshaft adjustment intake bank 1, activation %"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2932"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2932"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_FUEL_LOW_P_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Fuel low pressure, specified value"}
   ]},
@@ -2051,31 +2054,31 @@
   "signals": [
     {"id": "ARTEON_EXH_GAS_T_SENS_1", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2998"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2998"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_MANUAL_ENG_STARTS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Manual engine starts counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2999"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2999"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_AUTOMATIC_ENG_STARTS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic engine starts counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_COMPRESSION_TEST_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299C"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_COMPRESSION_TEST_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299D"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_COMPRESSION_TEST_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299E"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_COMPRESSION_TEST_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "29B1"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "29B1"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_REMAINING_DIST_UNTIL", "path": "Trips", "fmt": { "len": 32, "max": 214748364, "div": 20, "unit": "kilometers" }, "name": "Remaining distance until reducing agent deficiency"}
   ]},
@@ -2103,7 +2106,7 @@
   "signals": [
     {"id": "ARTEON_ENG_PROTECTION_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine protection, torque limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2CD8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2CD8"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_P_VLV_PISTON", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil pressure valve for piston cooling nozzles, control switch button ratio"}
   ]},
@@ -2111,7 +2114,7 @@
   "signals": [
     {"id": "ARTEON_ACCEL_PEDAL_POS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "381D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "381D"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_P_ACT_7E0_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure, actual value"}
   ]},
@@ -2236,7 +2239,7 @@
   "signals": [
     {"id": "ARTEON_CHG_P_ACTUATOR_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, maximum sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D7E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D7E"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_EXH_GAS_JET_VOLUME", "path": "Engine", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "liters" }, "name": "Exhaust gas jet volume in particle filter"}
   ]},
@@ -2312,7 +2315,7 @@
   "signals": [
     {"id": "ARTEON_SECONDARY_AIR_INJ_1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Secondary air injection sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3FE4"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3FE4"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENG_T_MANAGEMENT_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, specified value"}
   ]},
@@ -2332,11 +2335,11 @@
   "signals": [
     {"id": "ARTEON_T_SENS_ENG_T_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature sensor for engine temperature management, target value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "40E4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40E4"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_T_SENS_ENG_T_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Temperature sensor for engine temperature management voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "412A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "412A"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_AC_REFRIGERANT_P", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "Air conditioning refrigerant pressure"}
   ]},
@@ -2408,7 +2411,7 @@
   "signals": [
     {"id": "ARTEON_OIL_P_SWITCH_PISTON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch for piston-cooling jets, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4286"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4286"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PISTON_COOLING_JETS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Piston-cooling jets, activation"}
   ]},
@@ -2416,11 +2419,11 @@
   "signals": [
     {"id": "ARTEON_NUM_INJECTIONS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of injections"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "432B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "432B"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CHG_P_BEFORE_ACT", "path": "Battery", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "unknown" }, "name": "Charge pressure before throttle valve, calculated actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "432F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "432F"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_CHG_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "unknown" }, "name": "Cylinder charge specified value"}
   ]},
@@ -2428,7 +2431,7 @@
   "signals": [
     {"id": "ARTEON_HEATER_SUPPORT_PMP_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Heater support pump, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4367"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4367"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_CHG_ACT", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "unknown" }, "name": "Cylinder charge, actual value"}
   ]},
@@ -2456,19 +2459,19 @@
   "signals": [
     {"id": "ARTEON_HIGH_P_REGULATION", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "High pressure regulation, adaptation value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4417"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4417"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_THERMOSTAT_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 12207, "div": 1000000, "unit": "percent" }, "name": "Thermostat, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4418"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4418"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_THERMOSTAT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 12207, "div": 1000000, "unit": "percent" }, "name": "Thermostat, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4419"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4419"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENG_T_MANAGEMENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "441A"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441A"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENG_T_MANAGEMENT_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, duty cycle activation"}
   ]},
@@ -2480,11 +2483,11 @@
   "signals": [
     {"id": "ARTEON_ENG_T_MANAGEMENT_ACTUATOR_AFTER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, after-run stop"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "445A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "445A"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CHG_AIR_COOLER_INLET_P_1_1", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "unknown" }, "name": "Charge air cooler inlet, pressure sensor 1 bank 1 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4460"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4460"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_HIGH_FUEL_P_ACT_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure, actual value"}
   ]},
@@ -2496,7 +2499,7 @@
   "signals": [
     {"id": "ARTEON_ERROR_CNT_BAD_FUEL", "path": "Fuel", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Error counter bad fuel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4649"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4649"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_MAX_ECU_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Maximum ECU temperature"}
   ]},
@@ -2504,7 +2507,7 @@
   "signals": [
     {"id": "ARTEON_ENG_COMPARTMENT_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Engine compartment temperature raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "46D4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "46D4"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PARTICLE_SENS_TIME", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "seconds" }, "name": "Particle sensor, time in op.mode measurement"}
   ]},
@@ -2540,15 +2543,15 @@
     {"id": "ARTEON_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 3"},
     {"id": "ARTEON_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E51"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E51"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_LEVEL_TEST_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E52"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E52"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_LEVEL_TEST_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E53"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E53"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_LEVEL_TEST_3", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 3"}
   ]},
@@ -2564,15 +2567,15 @@
   "signals": [
     {"id": "ARTEON_ODO_SCR_CATALYTIC", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer at SCR catalytic converter replacement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4F70"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4F70"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_P_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure target"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4F97"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4F97"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_P_CTRL_VLV_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil pressure control valve, activation pulse duty factor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4FBE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4FBE"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OIL_P_SENS_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Oil pressure sensor raw value"}
   ]},
@@ -2596,7 +2599,7 @@
   "signals": [
     {"id": "ARTEON_MILEAGE_OXIDATION", "path": "Transmission", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Mileage of oxidation catalytic converter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "51D4"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "51D4"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_BLOCK_T_SENS", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Cylinder block temperature sensor"}
   ]},
@@ -2612,7 +2615,7 @@
   "signals": [
     {"id": "ARTEON_CAM_ADPT_CNT_KNOCK", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Camshaft adaptation, counter due to knock"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "5847"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "5847"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_1_INTERNAL_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Cylinder 1 internal torque"}
   ]},
@@ -2620,19 +2623,19 @@
   "signals": [
     {"id": "ARTEON_CYL_2_INTERNAL_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Cylinder 2 internal torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "584B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "584B"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_3_INTERNAL_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Cylinder 3 internal torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "584D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "584D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CYL_4_INTERNAL_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Cylinder 4 internal torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "5851"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "5851"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_SERVICE_LIM_7E0", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Service limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "58D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "58D1"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine oil level current value"}
   ]},
@@ -2644,7 +2647,7 @@
   "signals": [
     {"id": "ARTEON_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
@@ -2660,7 +2663,7 @@
   "signals": [
     {"id": "ARTEON_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -2672,7 +2675,7 @@
   "signals": [
     {"id": "ARTEON_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F433"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
@@ -2684,15 +2687,15 @@
   "signals": [
     {"id": "ARTEON_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F446"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_AAT_7E0_7E0", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F449"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F44A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},
@@ -2700,27 +2703,27 @@
   "signals": [
     {"id": "ARTEON_CHG_AIR_P_SPEC", "path": "Battery", "fmt": { "len": 8, "max": 510, "mul": 2, "unit": "kilopascal" }, "name": "Charge air pressure, specified value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0301"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0327"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0327"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 1.27, "min": -1.28, "div": 100, "sign": true, "unit": "scalar" }, "name": "Transmission gear ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1001"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TIRE_FR_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1005"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_VSS_ESP", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed ESP"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1011"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ADAPTIVE_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Adaptive mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1012"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ID_CURRENT_DRIVING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "ID of current driving program"}
   ]},
@@ -2728,11 +2731,11 @@
   "signals": [
     {"id": "ARTEON_CURRENT_TYPE_DRIVER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Current type of driver counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1021"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TCM_DRAG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission drag torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1022"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_TCM_TQ_LOSSES", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque losses"}
   ]},
@@ -2756,11 +2759,11 @@
   "signals": [
     {"id": "ARTEON_CURRENT_N217_P_CTRL_3", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N217 pressure control valve 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1029"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1029"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CURRENT_N371_P_CTRL_6", "path": "Transmission", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N371 pressure control valve 6 lock-up clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102A"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102A"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CLU_CENTER_CENTRAL_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch center central plate temperature"}
   ]},
@@ -2796,23 +2799,23 @@
   "signals": [
     {"id": "ARTEON_DES_TQ_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Desired torque raw"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1064"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_1_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 1, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1065"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_CLU_1_T_TIME_RANGE_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Clutch 1 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1066"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_1_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1067"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_1_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1068"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_1_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 3"}
   ]},
@@ -2820,51 +2823,51 @@
   "signals": [
     {"id": "ARTEON_RESERVE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Reserve torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1071"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 2 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1072"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1072"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1073"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1073"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1074"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1074"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_ADAPT_END_POS_OPENED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position opened"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1075"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1075"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_ADAPT_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position closed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1077"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1077"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_MQB_DQ200_CLUTCH_2_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 2 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1078"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1079"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1079"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_2_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 2, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107A"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107A"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_2_T_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107B"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_2_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107C"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107C"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_2_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107D"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107D"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_ANALYSIS_CLU_2_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 3"}
   ]},
@@ -2892,7 +2895,7 @@
   "signals": [
     {"id": "ARTEON_ADPT_CNT_PF_LOCKUP", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Adaptation counter PF lockup clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1111"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_OP_TIME_T_RANGE_1", "path": "Trips", "fmt": {            "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 1"},
     {"id": "ARTEON_OP_TIME_T_RANGE_2", "path": "Trips", "fmt": {"bix": 32,  "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 2"},
@@ -2925,7 +2928,7 @@
   "signals": [
     {"id": "ARTEON_NUM_WARN_HI_CENTRIF_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warnings due to increased centrifugal oil temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1200"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_LAUNCH_CTRL_CNT_VAR_1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, variant 1"}
   ]},
@@ -3255,7 +3258,7 @@
   "signals": [
     {"id": "ARTEON_INPUT_SHFT_SPD_2", "path": "Movement", "fmt": { "len": 16, "max": 7000, "min": -32769, "add": -1, "sign": true, "unit": "rpm" }, "name": "Input shaft speed 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "ARTEON_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},

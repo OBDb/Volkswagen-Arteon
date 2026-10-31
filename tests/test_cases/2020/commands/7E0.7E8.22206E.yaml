@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 0
+  response: 7E80562206E0000
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1674
+  response: 7E80562206E068A
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1694
+  response: 7E80562206E069E
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1698
+  response: 7E80562206E06A2
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1751
+  response: 7E80562206E06D7
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1759
+  response: 7E80562206E06DF
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 1841
+  response: 7E80562206E0731
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 2143
+  response: 7E80562206E085F
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 2532
+  response: 7E80562206E09E4

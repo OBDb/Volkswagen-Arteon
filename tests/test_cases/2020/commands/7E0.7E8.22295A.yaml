@@ -23,3 +23,6 @@ test_cases:
 - expected_values:
     ARTEON_ODO_ECM: 1048575
   response: 7E80662295A0FFFFF
+- expected_values:
+    ARTEON_ODO_ECM: 421
+  response: 7E80762295A0001A5E8

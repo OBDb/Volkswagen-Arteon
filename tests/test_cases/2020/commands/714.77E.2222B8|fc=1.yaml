@@ -1,0 +1,11 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108008.028
+  response: 77E076222B80670125C
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108008.204
+  response: 77E076222B80670130C
+- expected_values:
+    ARTEON_ODO_MILEAGE_HR: 108008.205
+  response: 77E076222B80670130D
