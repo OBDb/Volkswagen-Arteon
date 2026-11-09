@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222065
+test_cases:
+- expected_values:
+    ARTEON_CHG_AIR_P_ACTUATOR: 3.647
+  response: 7E8056220650E3F

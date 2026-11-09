@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    ARTEON_ODO_ECU_INSTALLED: 130910
+  response: 7E80662295B01FF5E

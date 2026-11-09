@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222930
+test_cases:
+- expected_values:
+    ARTEON_CAM_ADJ_INT_BANK_1: 33.31
+  response: 7E8056229300D03
+- expected_values:
+    ARTEON_CAM_ADJ_INT_BANK_1: 33.53
+  response: 7E8056229300D19
+- expected_values:
+    ARTEON_CAM_ADJ_INT_BANK_1: 33.95
+  response: 7E8056229300D43

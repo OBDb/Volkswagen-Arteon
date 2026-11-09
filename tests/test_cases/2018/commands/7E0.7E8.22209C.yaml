@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22209C
+test_cases:
+- expected_values:
+    ARTEON_ENG_DRAG_TQ: 19.9
+  response: 7E80562209C00C7
+- expected_values:
+    ARTEON_ENG_DRAG_TQ: 20.5
+  response: 7E80562209C00CD
+- expected_values:
+    ARTEON_ENG_DRAG_TQ: 20.8
+  response: 7E80562209C00D0

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    ARTEON_FUEL_RATE: 1.42
+  response: 7E80562204C008E
+- expected_values:
+    ARTEON_FUEL_RATE: 1.54
+  response: 7E80562204C009A
+- expected_values:
+    ARTEON_FUEL_RATE: 1.71
+  response: 7E80562204C00AB

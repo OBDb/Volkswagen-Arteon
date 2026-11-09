@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223E70
+test_cases:
+- expected_values:
+    ARTEON_INT_MANIFOLD_P_RAW: 0.333
+  response: 7E805623E70014D
+- expected_values:
+    ARTEON_INT_MANIFOLD_P_RAW: 0.338
+  response: 7E805623E700152
+- expected_values:
+    ARTEON_INT_MANIFOLD_P_RAW: 0.342
+  response: 7E805623E700156

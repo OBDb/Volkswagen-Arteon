@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213AC
+test_cases:
+- expected_values:
+    ARTEON_TI_1_MPI_0: 0
+  response: 7E8056213AC0000
+- expected_values:
+    ARTEON_TI_1_MPI_0: 4.604
+  response: 7E8056213AC047F
+- expected_values:
+    ARTEON_TI_1_MPI_0: 4.804
+  response: 7E8056213AC04B1

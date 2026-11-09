@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2251D6
+test_cases:
+- expected_values:
+    ARTEON_FUEL_CONS_PER: 92.52
+  response: 7E8056251D62424

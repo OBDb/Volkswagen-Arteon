@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224056
+test_cases:
+- expected_values:
+    ARTEON_IDLE_SPD_SPEC_RPM: 810
+  response: 7E805624056032A
+- expected_values:
+    ARTEON_IDLE_SPD_SPEC_RPM: 813
+  response: 7E805624056032D
+- expected_values:
+    ARTEON_IDLE_SPD_SPEC_RPM: 814
+  response: 7E805624056032E

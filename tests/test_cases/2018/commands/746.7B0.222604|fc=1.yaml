@@ -1,0 +1,5 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    ARTEON_AC_COMPRESSOR_LOAD: 3
+  response: 7B0046226041E

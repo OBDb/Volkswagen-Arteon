@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222004
+test_cases:
+- expected_values:
+    ARTEON_IGN_ANG_CURRENT_CYL_ACT: 0
+  response: '7E8056220040000'
+- expected_values:
+    ARTEON_IGN_ANG_CURRENT_CYL_ACT: -1.5
+  response: 7E805622004FF6A

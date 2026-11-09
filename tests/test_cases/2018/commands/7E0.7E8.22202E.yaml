@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22202E
+test_cases:
+- expected_values:
+    ARTEON_ECT_DIFF_ENG: 57
+  response: 7E80562202E023A
+- expected_values:
+    ARTEON_ECT_DIFF_ENG: 59.2
+  response: 7E80562202E0250
+- expected_values:
+    ARTEON_ECT_DIFF_ENG: 60
+  response: 7E80562202E0258

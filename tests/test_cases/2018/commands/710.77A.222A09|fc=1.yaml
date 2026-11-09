@@ -1,0 +1,5 @@
+command_id: 710.77A.222A09|fc=1
+test_cases:
+- expected_values:
+    ARTEON_SSB_C: 17.125
+  response: 77A07622A09000042E5

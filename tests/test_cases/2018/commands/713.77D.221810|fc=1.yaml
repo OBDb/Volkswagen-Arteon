@@ -1,0 +1,7 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    ARTEON_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C62181001FFF6
+    77D21FC2D0000029AAA

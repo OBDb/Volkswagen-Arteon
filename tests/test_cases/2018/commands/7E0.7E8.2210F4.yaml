@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210F4
+test_cases:
+- expected_values:
+    ARTEON_MIS_PER_1000_3_7E0: 380
+  response: 7E8056210F4017C
+- expected_values:
+    ARTEON_MIS_PER_1000_3_7E0: 383
+  response: 7E8056210F4017F
+- expected_values:
+    ARTEON_MIS_PER_1000_3_7E0: 389
+  response: 7E8056210F40185

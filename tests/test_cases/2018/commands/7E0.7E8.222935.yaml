@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222935
+test_cases:
+- expected_values:
+    ARTEON_ECT_ENG_START: 33
+  response: 7E805622935014A

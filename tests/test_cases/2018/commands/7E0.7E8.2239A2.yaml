@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2239A2
+test_cases:
+- expected_values:
+    ARTEON_CHG_P_ACTUATOR_ACT: 0
+  response: 7E8056239A20000

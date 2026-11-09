@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    ARTEON_MAF_RATE: 8.15625
+  response: 7E8056213CD0105
+- expected_values:
+    ARTEON_MAF_RATE: 8.40625
+  response: 7E8056213CD010D
