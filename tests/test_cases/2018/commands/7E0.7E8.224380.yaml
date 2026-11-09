@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224380
+test_cases:
+- expected_values:
+    ARTEON_ENG_TRQ_REQ_2: 3.4
+  response: '7E8056243800022'
+- expected_values:
+    ARTEON_ENG_TRQ_REQ_2: 3.6
+  response: '7E8056243800024'
+- expected_values:
+    ARTEON_ENG_TRQ_REQ_2: 5.6
+  response: '7E8056243800038'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224336
+test_cases:
+- expected_values:
+    ARTEON_HEATER_SUPPORT_PMP_SPEC: 85
+  response: '7E8056243362134'

@@ -1,0 +1,5 @@
+command_id: 746.7B0.222611|fc=1
+test_cases:
+- expected_values:
+    ARTEON_LEG_DEFLECTOR_T: 43
+  response: 7B00462261181

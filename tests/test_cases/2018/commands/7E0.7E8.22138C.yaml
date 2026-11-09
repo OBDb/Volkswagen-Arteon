@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22138C
+test_cases:
+- expected_values:
+    ARTEON_IGA_IGC_2: -1.52275
+  response: 7E80462138C5B
+- expected_values:
+    ARTEON_IGA_IGC_2: 0.72575
+  response: 7E80462138C61

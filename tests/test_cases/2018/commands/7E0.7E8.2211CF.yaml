@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    ARTEON_BRAKE_BOOSTER_P: 332.76918
+  response: 7E8056211CF2147
+- expected_values:
+    ARTEON_BRAKE_BOOSTER_P: 345.97213
+  response: 7E8056211CF2299
+- expected_values:
+    ARTEON_BRAKE_BOOSTER_P: 352.10487
+  response: 7E8056211CF2336

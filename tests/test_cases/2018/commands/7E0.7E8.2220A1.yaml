@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2220A1
+test_cases:
+- expected_values:
+    ARTEON_PQ35_CALCULATED_OIL_T: -40
+  response: 7E8056220A10046
+- expected_values:
+    ARTEON_PQ35_CALCULATED_OIL_T: -40
+  response: 7E8056220A1005A
+- expected_values:
+    ARTEON_PQ35_CALCULATED_OIL_T: -40
+  response: 7E8056220A1006E

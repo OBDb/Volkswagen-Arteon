@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    ARTEON_MAP_RAW: 10.46875
+  response: 7E8056211DC0086
+- expected_values:
+    ARTEON_MAP_RAW: 16.25
+  response: 7E8056211DC00D0
+- expected_values:
+    ARTEON_MAP_RAW: 17.89062
+  response: 7E8056211DC00E5

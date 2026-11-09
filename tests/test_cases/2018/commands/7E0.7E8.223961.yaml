@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223961
+test_cases:
+- expected_values:
+    ARTEON_KNOCK_SENS_CYL_2: 0.43
+  response: 7E80562396101AE
+- expected_values:
+    ARTEON_KNOCK_SENS_CYL_2: 0.436
+  response: 7E80562396101B4
+- expected_values:
+    ARTEON_KNOCK_SENS_CYL_2: 0.438
+  response: 7E80562396101B6

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224381
+test_cases:
+- expected_values:
+    ARTEON_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.3
+  response: 7E805624381001E
+- expected_values:
+    ARTEON_LONG_TERM_FUEL_TRIM_IDLE_7E0: -0.3
+  response: 7E805624381FFE2

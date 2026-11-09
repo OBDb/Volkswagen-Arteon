@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22414E
+test_cases:
+- expected_values:
+    ARTEON_LONG_TERM_ADPT_INT: 0.45
+  response: 7E80562414E002D

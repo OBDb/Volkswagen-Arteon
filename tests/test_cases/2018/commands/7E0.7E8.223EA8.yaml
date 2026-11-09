@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.223EA8
+test_cases:
+- expected_values:
+    ARTEON_CHG_P_CTRL_VLV_SENS_V: 3.64751
+  response: 7E805623EA85D60

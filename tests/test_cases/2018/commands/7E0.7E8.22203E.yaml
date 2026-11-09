@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22203E
+test_cases:
+- expected_values:
+    ARTEON_FUEL_T_7E0: 33.7
+  response: 7E80562203E0151
+- expected_values:
+    ARTEON_FUEL_T_7E0: 34.5
+  response: 7E80562203E0159
+- expected_values:
+    ARTEON_FUEL_T_7E0: 36.7
+  response: 7E80562203E016F

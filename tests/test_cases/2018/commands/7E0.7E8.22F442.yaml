@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    ARTEON_VPWR: 14.472
+  response: 7E80562F4423888
+- expected_values:
+    ARTEON_VPWR: 14.511
+  response: 7E80562F44238AF
+- expected_values:
+    ARTEON_VPWR: 14.609
+  response: 7E80562F4423911

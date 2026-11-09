@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22201E
+test_cases:
+- expected_values:
+    ARTEON_CAM_ADJ_INT_ACT: 14.8
+  response: 7E80562201E0094
+- expected_values:
+    ARTEON_CAM_ADJ_INT_ACT: 15
+  response: 7E80562201E0096
+- expected_values:
+    ARTEON_CAM_ADJ_INT_ACT: 15.3
+  response: 7E80562201E0099

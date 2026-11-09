@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221200
+test_cases:
+- expected_values:
+    ARTEON_EA888B_BOOST_P_CTRL_1: 42.15
+  response: 7E8056212000F92
+- expected_values:
+    ARTEON_EA888B_BOOST_P_CTRL_1: 44.96
+  response: 7E805621200104F
+- expected_values:
+    ARTEON_EA888B_BOOST_P_CTRL_1: 47.77
+  response: '7E8056212001180'

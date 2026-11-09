@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221298|fc=1
+test_cases:
+- expected_values:
+    ARTEON_CAT_T_BANK_1: 498.225
+  response: '7E8056212983036'

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2216BB
+test_cases:
+- expected_values:
+    ARTEON_VLV_LIFT_SYSTEM_VLV_LIFT: 22
+  response: 7E8056216BB16CA
+- expected_values:
+    ARTEON_VLV_LIFT_SYSTEM_VLV_LIFT: 23
+  response: 7E8056216BB170C
+- expected_values:
+    ARTEON_VLV_LIFT_SYSTEM_VLV_LIFT: 23
+  response: 7E8056216BB17EB

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 813
+  response: 7E80562206E032D
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 814
+  response: 7E80562206E032E
+- expected_values:
+    ARTEON_CRANK_SPD_RPM: 820
+  response: 7E80562206E0334

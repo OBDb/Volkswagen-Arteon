@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    ARTEON_CLU_1_T_TIME_RANGE_0: 859.88
+  response: 7E907621065F2A73C23

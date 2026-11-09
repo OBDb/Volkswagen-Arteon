@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211CD
+test_cases:
+- expected_values:
+    ARTEON_TCO_1_SYS: 66
+  response: 7E8046211CD6A
+- expected_values:
+    ARTEON_TCO_1_SYS: 69
+  response: 7E8046211CD6D
+- expected_values:
+    ARTEON_TCO_1_SYS: 70
+  response: 7E8046211CD6E

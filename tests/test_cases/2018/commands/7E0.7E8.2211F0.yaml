@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211F0
+test_cases:
+- expected_values:
+    ARTEON_BOOST_P_ACT: 315.46875
+  response: 7E8056211F00FC6
+- expected_values:
+    ARTEON_BOOST_P_ACT: 334.53125
+  response: 7E8056211F010BA
+- expected_values:
+    ARTEON_BOOST_P_ACT: 377.96875
+  response: 7E8056211F012E6
