@@ -9,5 +9,8 @@ test_cases:
     7E80462F40D00
     7E8027E00
 - expected_values:
-    ARTEON_VSS: 255
+    ARTEON_VSS: 145
+  response: 7E80462F40D91
+- expected_values:
+    ARTEON_VSS: null
   response: 7E80462F40DFF
