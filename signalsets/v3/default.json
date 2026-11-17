@@ -1879,7 +1879,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019], "from": 2022 },
   "signals": [
-    {"id": "ARTEON_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "ARTEON_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A2"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
