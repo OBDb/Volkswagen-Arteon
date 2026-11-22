@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22441A
+test_cases:
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT_ACTUATOR: -11.29
+  response: 7E80562441AFB97
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT_ACTUATOR: -10.71
+  response: 7E80562441AFBD1
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT_ACTUATOR: -9.95
+  response: 7E80562441AFC1D

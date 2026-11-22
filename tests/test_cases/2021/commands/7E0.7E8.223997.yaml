@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223997
+test_cases:
+- expected_values:
+    ARTEON_MIXTURE_ADPT_FACTOR_IDLE: -0.45
+  response: 7E805623997FFD3
+- expected_values:
+    ARTEON_MIXTURE_ADPT_FACTOR_IDLE: -0.44
+  response: 7E805623997FFD4
+- expected_values:
+    ARTEON_MIXTURE_ADPT_FACTOR_IDLE: -0.42
+  response: 7E805623997FFD6

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22130D
+test_cases:
+- expected_values:
+    ARTEON_FUEL_MASS_REQ_I_CTL: 13.81849
+  response: 7E80562130D028C
+- expected_values:
+    ARTEON_FUEL_MASS_REQ_I_CTL: 13.96685
+  response: 7E80562130D0293

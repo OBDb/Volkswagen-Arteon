@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 1174
+  response: '7E8056244190496'
+- expected_values:
+    ARTEON_ENG_T_MANAGEMENT: 1175
+  response: '7E8056244190497'

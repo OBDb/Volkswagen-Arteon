@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22202B
+test_cases:
+- expected_values:
+    ARTEON_ECT_RADIATOR_OUTLET_ACT: 53.6
+  response: 7E80562202B0218
+- expected_values:
+    ARTEON_ECT_RADIATOR_OUTLET_ACT: 53.7
+  response: 7E80562202B0219
+- expected_values:
+    ARTEON_ECT_RADIATOR_OUTLET_ACT: 54.1
+  response: 7E80562202B021D

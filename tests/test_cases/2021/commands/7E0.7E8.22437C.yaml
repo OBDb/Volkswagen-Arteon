@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22437C
+test_cases:
+- expected_values:
+    ARTEON_ENG_TQ_7E0: 23.8
+  response: 7E80562437C00EE
+- expected_values:
+    ARTEON_ENG_TQ_7E0: 26.1
+  response: 7E80562437C0105

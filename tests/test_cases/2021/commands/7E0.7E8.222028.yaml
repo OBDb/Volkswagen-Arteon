@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222028
+test_cases:
+- expected_values:
+    ARTEON_ACTIVATION_FUEL_PMP: 73.57
+  response: 7E8056220281CBD
+- expected_values:
+    ARTEON_ACTIVATION_FUEL_PMP: 73.6
+  response: 7E8056220281CC0
+- expected_values:
+    ARTEON_ACTIVATION_FUEL_PMP: 73.64
+  response: 7E8056220281CC4

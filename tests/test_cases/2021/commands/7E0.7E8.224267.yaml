@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224267
+test_cases:
+- expected_values:
+    ARTEON_DIRECT_INJECTIONS: 190180129
+  response: 7E8076242670B55EB21

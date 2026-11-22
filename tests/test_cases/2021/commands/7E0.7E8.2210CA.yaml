@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210CA
+test_cases:
+- expected_values:
+    ARTEON_ACCEL_7E0: 16.55
+  response: 7E8056210CA40A6

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213A3
+test_cases:
+- expected_values:
+    ARTEON_TI_MES4_PLS_1_3: 0.628
+  response: 7E8056213A3009D
+- expected_values:
+    ARTEON_TI_MES4_PLS_1_3: 0.64
+  response: 7E8056213A300A0
