@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2220C2
+test_cases:
+- expected_values:
+    ARTEON_WEAR_INDEX_0_NEW_ENG: 0.01831
+  response: 7E8056220C2000C
+- expected_values:
+    ARTEON_WEAR_INDEX_0_NEW_ENG: 0.01984
+  response: 7E8056220C2000D

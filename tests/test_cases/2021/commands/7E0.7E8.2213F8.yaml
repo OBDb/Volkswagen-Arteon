@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213F8
+test_cases:
+- expected_values:
+    ARTEON_NL_PRE_2: 0.35889
+  response: 7E8056213F81260
+- expected_values:
+    ARTEON_NL_PRE_2: 0.38162
+  response: 7E8056213F8138A
+- expected_values:
+    ARTEON_NL_PRE_2: 0.38269
+  response: 7E8056213F81398

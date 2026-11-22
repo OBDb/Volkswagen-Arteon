@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 24.1
+  response: 7E80562209B00F1
+- expected_values:
+    ARTEON_TQ_REQ_SUM_AUXILIARY: 24.3
+  response: 7E80562209B00F3

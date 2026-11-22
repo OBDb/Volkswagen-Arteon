@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    ARTEON_EXH_GAS_T: 391.8
+  response: 7E80562F43C10DE
+- expected_values:
+    ARTEON_EXH_GAS_T: 392.3
+  response: 7E80562F43C10E3

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222949
+test_cases:
+- expected_values:
+    ARTEON_AVG_IGN_TIM_ANG: 13.12
+  response: '7E8056229490520'
+- expected_values:
+    ARTEON_AVG_IGN_TIM_ANG: 13.87
+  response: 7E805622949056B

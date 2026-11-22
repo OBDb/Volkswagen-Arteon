@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222003
+test_cases:
+- expected_values:
+    ARTEON_AVG_INJ_TIME_7E0: 0.6
+  response: '7E80462200306'

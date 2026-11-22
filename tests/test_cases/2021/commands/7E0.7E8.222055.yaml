@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222055
+test_cases:
+- expected_values:
+    ARTEON_CLT_FAN_1_ACTIVATION: 52.34
+  response: '7E8056220551472'
+- expected_values:
+    ARTEON_CLT_FAN_1_ACTIVATION: 53.52
+  response: 7E80562205514E8

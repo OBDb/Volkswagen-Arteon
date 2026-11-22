@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211D7
+test_cases:
+- expected_values:
+    ARTEON_HIGH_FUEL_P_CMD: 31.8855
+  response: 7E8056211D7F91B
+- expected_values:
+    ARTEON_HIGH_FUEL_P_CMD: 31.953
+  response: 7E8056211D7F9A2

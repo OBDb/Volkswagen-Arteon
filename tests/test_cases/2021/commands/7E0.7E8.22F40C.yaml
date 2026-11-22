@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    ARTEON_RPM: 802
+  response: 7E80562F40C0C88
+- expected_values:
+    ARTEON_RPM: 804.75
+  response: 7E80562F40C0C93

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    ARTEON_THERMOSTAT_ACT: 84.20389
+  response: 7E8056244181AF2

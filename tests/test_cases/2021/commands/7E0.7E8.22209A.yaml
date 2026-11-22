@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22209A
+test_cases:
+- expected_values:
+    ARTEON_FUEL_METERING_VLV: 37.26
+  response: 7E80562209A0E8E
+- expected_values:
+    ARTEON_FUEL_METERING_VLV: 39.45
+  response: 7E80562209A0F69
+- expected_values:
+    ARTEON_FUEL_METERING_VLV: 42.43
+  response: 7E80562209A1093

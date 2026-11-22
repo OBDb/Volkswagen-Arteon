@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222017
+test_cases:
+- expected_values:
+    ARTEON_AC_COMP_TQ: -12
+  response: 7E805622017FB50
+- expected_values:
+    ARTEON_AC_COMP_TQ: -11.78
+  response: 7E805622017FB66

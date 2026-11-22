@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2220BB
+test_cases:
+- expected_values:
+    ARTEON_FUEL_HIGH_P_CTRL_DEV: 0.2
+  response: 7E8056220BB0002
+- expected_values:
+    ARTEON_FUEL_HIGH_P_CTRL_DEV: 0.9
+  response: 7E8056220BB0009
+- expected_values:
+    ARTEON_FUEL_HIGH_P_CTRL_DEV: 1.1
+  response: 7E8056220BB000B

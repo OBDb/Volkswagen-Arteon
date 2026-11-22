@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210BE
+test_cases:
+- expected_values:
+    ARTEON_REQ_TQ_AMOUNT: 39.7
+  response: 7E8056210BE018D
+- expected_values:
+    ARTEON_REQ_TQ_AMOUNT: 39.9
+  response: 7E8056210BE018F
+- expected_values:
+    ARTEON_REQ_TQ_AMOUNT: 40
+  response: 7E8056210BE0190
